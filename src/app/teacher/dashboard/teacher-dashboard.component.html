@@ -5,12 +5,12 @@
 
 @if (stats) {
   <div class="stats-grid">
-    <mat-card class="stat-card">
+    <mat-card class="stat-card stat-card--highlight" routerLink="/teacher/subjects">
       <mat-icon>menu_book</mat-icon>
       <div class="stat-card__value">{{ stats.subjects }}</div>
       <div class="stat-card__label">Ваші предмети</div>
     </mat-card>
-    <mat-card class="stat-card">
+    <mat-card class="stat-card stat-card--highlight" routerLink="/teacher/students">
       <mat-icon>groups</mat-icon>
       <div class="stat-card__value">{{ stats.students }}</div>
       <div class="stat-card__label">Ваші студенти</div>

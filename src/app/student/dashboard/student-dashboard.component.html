@@ -9,12 +9,12 @@
     <div class="stat-card__value">{{ stream?.courseYear || '—' }}</div>
     <div class="stat-card__label">Курс</div>
   </mat-card>
-  <mat-card class="stat-card">
+  <mat-card class="stat-card stat-card--highlight" routerLink="/student/classmates">
     <mat-icon>groups</mat-icon>
     <div class="stat-card__value">{{ group?.name || '—' }}</div>
     <div class="stat-card__label">Група {{ student?.subgroup ? '(підгр. ' + student?.subgroup + ')' : '' }}</div>
   </mat-card>
-  <mat-card class="stat-card">
+  <mat-card class="stat-card stat-card--highlight" routerLink="/student/subjects">
     <mat-icon>menu_book</mat-icon>
     <div class="stat-card__value">{{ subjectCount }}</div>
     <div class="stat-card__label">Предметів цього семестру</div>

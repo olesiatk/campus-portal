@@ -2,22 +2,22 @@
 
 @if (stats) {
   <div class="stats-grid">
-    <mat-card class="stat-card">
+    <mat-card class="stat-card stat-card--highlight" routerLink="/admin/departments">
       <mat-icon>account_balance</mat-icon>
       <div class="stat-card__value">{{ stats.departments }}</div>
       <div class="stat-card__label">Кафедри</div>
     </mat-card>
-    <mat-card class="stat-card">
+    <mat-card class="stat-card stat-card--highlight" routerLink="/admin/teachers">
       <mat-icon>school</mat-icon>
       <div class="stat-card__value">{{ stats.teachers }}</div>
       <div class="stat-card__label">Викладачі</div>
     </mat-card>
-    <mat-card class="stat-card">
+    <mat-card class="stat-card stat-card--highlight" routerLink="/admin/students">
       <mat-icon>groups</mat-icon>
       <div class="stat-card__value">{{ stats.students }}</div>
       <div class="stat-card__label">Студенти</div>
     </mat-card>
-    <mat-card class="stat-card">
+    <mat-card class="stat-card stat-card--highlight" routerLink="/admin/subjects">
       <mat-icon>menu_book</mat-icon>
       <div class="stat-card__value">{{ stats.subjects }}</div>
       <div class="stat-card__label">Предмети</div>
