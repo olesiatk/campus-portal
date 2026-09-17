@@ -1,47 +1,55 @@
-<app-page-header title="Оцінки" subtitle="Перегляд і виставлення оцінок вашим студентам"></app-page-header>
+<app-page-header
+  title="Оцінки"
+  subtitle="Перегляд і виставлення оцінок вашим студентам"
+></app-page-header>
 
 <form [formGroup]="form" class="grade-form">
   <mat-form-field appearance="outline">
     <mat-label>Предмет</mat-label>
     <mat-select formControlName="subjectId">
-      <mat-option *ngFor="let s of subjects" [value]="s.id">{{ s.name }}</mat-option>
+      @for (s of subjects; track s) {
+        <mat-option [value]="s.id">{{ s.name }}</mat-option>
+      }
     </mat-select>
   </mat-form-field>
 
   <mat-form-field appearance="outline">
     <mat-label>Студент</mat-label>
     <mat-select formControlName="studentId">
-      <mat-option *ngFor="let st of filteredStudents" [value]="st.id">{{ st.lastName }} {{ st.firstName }}</mat-option>
+      @for (st of filteredStudents; track st) {
+        <mat-option [value]="st.id">{{ st.lastName }} {{ st.firstName }}</mat-option>
+      }
     </mat-select>
   </mat-form-field>
 
-  <table
-    mat-table
-    [dataSource]="grades"
-    class="mat-elevation-z1 full-width"
-    *ngIf="form.get('studentId')?.value"
-  >
-    <ng-container matColumnDef="date">
-      <th mat-header-cell *matHeaderCellDef>Дата</th>
-      <td mat-cell *matCellDef="let g">{{ g.date | date: 'dd.MM.yyyy' }}</td>
-    </ng-container>
-    <ng-container matColumnDef="value">
-      <th mat-header-cell *matHeaderCellDef>Оцінка</th>
-      <td mat-cell *matCellDef="let g">{{ g.value }}</td>
-    </ng-container>
-    <ng-container matColumnDef="comment">
-      <th mat-header-cell *matHeaderCellDef>Коментар</th>
-      <td mat-cell *matCellDef="let g">{{ g.comment }}</td>
-    </ng-container>
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
-  </table>
+  @if (form.get('studentId')?.value) {
+    <table mat-table [dataSource]="grades" class="mat-elevation-z1 full-width">
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef>Дата</th>
+        <td mat-cell *matCellDef="let g">{{ g.date | date: 'dd.MM.yyyy' }}</td>
+      </ng-container>
+      <ng-container matColumnDef="value">
+        <th mat-header-cell *matHeaderCellDef>Оцінка</th>
+        <td mat-cell *matCellDef="let g">{{ g.value }}</td>
+      </ng-container>
+      <ng-container matColumnDef="comment">
+        <th mat-header-cell *matHeaderCellDef>Коментар</th>
+        <td mat-cell *matCellDef="let g">{{ g.comment }}</td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+  }
 
-  <p *ngIf="form.get('studentId')?.value && !grades.length">Оцінок ще немає.</p>
+  @if (form.get('studentId')?.value && !grades.length) {
+    <p>Оцінок ще немає.</p>
+  }
 
-  <mat-divider *ngIf="form.get('studentId')?.value"></mat-divider>
+  @if (form.get('studentId')?.value) {
+    <mat-divider></mat-divider>
+  }
 
-  <ng-container *ngIf="form.get('studentId')?.value">
+  @if (form.get('studentId')?.value) {
     <h3>Додати оцінку</h3>
     <div class="grade-form__row">
       <mat-form-field appearance="outline">
@@ -60,5 +68,5 @@
       </mat-form-field>
       <button mat-raised-button color="primary" type="button" (click)="addGrade()">Додати</button>
     </div>
-  </ng-container>
+  }
 </form>

@@ -1,19 +1,21 @@
 <app-page-header title="Огляд кафедри" [subtitle]="department?.name || ''"></app-page-header>
 
-<div class="stats-grid" *ngIf="stats">
-  <mat-card class="stat-card">
-    <mat-icon>school</mat-icon>
-    <div class="stat-card__value">{{ stats.teachers }}</div>
-    <div class="stat-card__label">Викладачі</div>
-  </mat-card>
-  <mat-card class="stat-card">
-    <mat-icon>groups</mat-icon>
-    <div class="stat-card__value">{{ stats.students }}</div>
-    <div class="stat-card__label">Студенти</div>
-  </mat-card>
-  <mat-card class="stat-card">
-    <mat-icon>menu_book</mat-icon>
-    <div class="stat-card__value">{{ stats.subjects }}</div>
-    <div class="stat-card__label">Предмети</div>
-  </mat-card>
-</div>
+@if (stats) {
+  <div class="stats-grid">
+    <mat-card class="stat-card">
+      <mat-icon>school</mat-icon>
+      <div class="stat-card__value">{{ stats.teachers }}</div>
+      <div class="stat-card__label">Викладачі</div>
+    </mat-card>
+    <mat-card class="stat-card">
+      <mat-icon>groups</mat-icon>
+      <div class="stat-card__value">{{ stats.students }}</div>
+      <div class="stat-card__label">Студенти</div>
+    </mat-card>
+    <mat-card class="stat-card">
+      <mat-icon>menu_book</mat-icon>
+      <div class="stat-card__value">{{ stats.subjects }}</div>
+      <div class="stat-card__label">Предмети</div>
+    </mat-card>
+  </div>
+}

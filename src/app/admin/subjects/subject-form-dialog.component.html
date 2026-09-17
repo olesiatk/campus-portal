@@ -8,19 +8,25 @@
     <mat-form-field appearance="outline">
       <mat-label>Кафедра</mat-label>
       <mat-select formControlName="departmentId">
-        <mat-option *ngFor="let dept of data.departments" [value]="dept.id">{{ dept.name }}</mat-option>
+        @for (dept of data.departments; track dept) {
+          <mat-option [value]="dept.id">{{ dept.name }}</mat-option>
+        }
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="outline">
       <mat-label>Потік (курс)</mat-label>
       <mat-select formControlName="streamId">
-        <mat-option *ngFor="let stream of filteredStreams" [value]="stream.id">{{ stream.courseYear }} курс</mat-option>
+        @for (stream of filteredStreams; track stream) {
+          <mat-option [value]="stream.id">{{ stream.courseYear }} курс</mat-option>
+        }
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="outline">
       <mat-label>Викладач</mat-label>
       <mat-select formControlName="teacherId">
-        <mat-option *ngFor="let t of teachers" [value]="t.id">{{ t.lastName }} {{ t.firstName }}</mat-option>
+        @for (t of teachers; track t) {
+          <mat-option [value]="t.id">{{ t.lastName }} {{ t.firstName }}</mat-option>
+        }
       </mat-select>
     </mat-form-field>
   </form>

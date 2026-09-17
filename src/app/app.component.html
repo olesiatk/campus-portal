@@ -1,22 +1,26 @@
-<mat-toolbar color="primary" class="app-toolbar" *ngIf="currentUser$ | async as user">
-  <a class="app-toolbar__brand" [routerLink]="homeLink(user.role)">Інститут прикладної математики</a>
-  <span class="app-toolbar__spacer"></span>
-  <button mat-button [matMenuTriggerFor]="userMenu">
-    <mat-icon>account_circle</mat-icon>
-    {{ user.firstName }} {{ user.lastName }}
-  </button>
-  <mat-menu #userMenu="matMenu">
-    <div class="app-toolbar__menu-info">
-      <app-role-badge [role]="user.role"></app-role-badge>
-      <div>{{ user.email }}</div>
-    </div>
-    <mat-divider></mat-divider>
-    <button mat-menu-item (click)="logout()">
-      <mat-icon>logout</mat-icon>
-      Вийти
+@if (currentUser$ | async; as user) {
+  <mat-toolbar color="primary" class="app-toolbar">
+    <a class="app-toolbar__brand" [routerLink]="homeLink(user.role)"
+      >Інститут прикладної математики</a
+    >
+    <span class="app-toolbar__spacer"></span>
+    <button mat-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>account_circle</mat-icon>
+      {{ user.firstName }} {{ user.lastName }}
     </button>
-  </mat-menu>
-</mat-toolbar>
+    <mat-menu #userMenu="matMenu">
+      <div class="app-toolbar__menu-info">
+        <app-role-badge [role]="user.role"></app-role-badge>
+        <div>{{ user.email }}</div>
+      </div>
+      <mat-divider></mat-divider>
+      <button mat-menu-item (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        Вийти
+      </button>
+    </mat-menu>
+  </mat-toolbar>
+}
 
 <main class="app-content">
   <router-outlet></router-outlet>
