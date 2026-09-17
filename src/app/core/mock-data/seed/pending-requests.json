@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "role": "student",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "firstName": "Микита",
+    "lastName": "Остапенко",
+    "email": "mykyta.ostapenko@students.pim.edu.ua",
+    "status": "pending",
+    "requestedAt": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "role": "teacher",
+    "departmentId": 3,
+    "email": "danylo.savchenko@pim.edu.ua",
+    "targetUserId": 15,
+    "status": "pending",
+    "requestedAt": "2025-09-12T00:00:00.000Z"
+  }
+]

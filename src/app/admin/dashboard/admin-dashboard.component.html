@@ -1,0 +1,29 @@
+<app-page-header title="Огляд" subtitle="Інститут прикладної математики"></app-page-header>
+
+<div class="stats-grid" *ngIf="stats">
+  <mat-card class="stat-card">
+    <mat-icon>account_balance</mat-icon>
+    <div class="stat-card__value">{{ stats.departments }}</div>
+    <div class="stat-card__label">Кафедри</div>
+  </mat-card>
+  <mat-card class="stat-card">
+    <mat-icon>school</mat-icon>
+    <div class="stat-card__value">{{ stats.teachers }}</div>
+    <div class="stat-card__label">Викладачі</div>
+  </mat-card>
+  <mat-card class="stat-card">
+    <mat-icon>groups</mat-icon>
+    <div class="stat-card__value">{{ stats.students }}</div>
+    <div class="stat-card__label">Студенти</div>
+  </mat-card>
+  <mat-card class="stat-card">
+    <mat-icon>menu_book</mat-icon>
+    <div class="stat-card__value">{{ stats.subjects }}</div>
+    <div class="stat-card__label">Предмети</div>
+  </mat-card>
+  <mat-card class="stat-card stat-card--highlight" [routerLink]="stats.pendingRequests ? '/admin/requests' : null">
+    <mat-icon>how_to_reg</mat-icon>
+    <div class="stat-card__value">{{ stats.pendingRequests }}</div>
+    <div class="stat-card__label">Заявки очікують</div>
+  </mat-card>
+</div>

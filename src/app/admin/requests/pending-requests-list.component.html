@@ -1,0 +1,21 @@
+<app-page-header title="Заявки на реєстрацію" subtitle="Нові акаунти та відновлення паролів"></app-page-header>
+
+<p *ngIf="!requests.length">Немає заявок, що очікують підтвердження.</p>
+
+<mat-card *ngFor="let r of requests" class="request-card">
+  <div class="request-card__main">
+    <div class="request-card__title">
+      <app-role-badge [role]="r.role"></app-role-badge>
+      <span *ngIf="isClaim(r)">Підтвердження існуючого акаунту</span>
+      <span *ngIf="!isClaim(r)">{{ r.lastName }} {{ r.firstName }}</span>
+    </div>
+    <div class="request-card__meta">
+      {{ departmentName(r.departmentId) }} · {{ r.email }}
+      <span *ngIf="r.requestedAt"> · подано {{ r.requestedAt | date: 'dd.MM.yyyy' }}</span>
+    </div>
+  </div>
+  <div class="request-card__actions">
+    <button mat-raised-button color="primary" (click)="approve(r)">Підтвердити</button>
+    <button mat-stroked-button color="warn" (click)="reject(r)">Відхилити</button>
+  </div>
+</mat-card>

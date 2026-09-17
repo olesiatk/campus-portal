@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "streamId": 1,
+    "departmentId": 1,
+    "name": "ПМ-11",
+    "studentCount": 34,
+    "hasSubgroups": true
+  },
+  {
+    "id": 2,
+    "streamId": 2,
+    "departmentId": 1,
+    "name": "ПМ-22",
+    "studentCount": 23,
+    "hasSubgroups": false
+  },
+  {
+    "id": 3,
+    "streamId": 3,
+    "departmentId": 1,
+    "name": "ПМ-33",
+    "studentCount": 21,
+    "hasSubgroups": false
+  },
+  {
+    "id": 4,
+    "streamId": 4,
+    "departmentId": 1,
+    "name": "ПМ-44",
+    "studentCount": 30,
+    "hasSubgroups": false
+  },
+  {
+    "id": 5,
+    "streamId": 5,
+    "departmentId": 1,
+    "name": "ПМ-55",
+    "studentCount": 40,
+    "hasSubgroups": true
+  },
+  {
+    "id": 6,
+    "streamId": 6,
+    "departmentId": 2,
+    "name": "ІТ-11",
+    "studentCount": 27,
+    "hasSubgroups": false
+  },
+  {
+    "id": 7,
+    "streamId": 7,
+    "departmentId": 2,
+    "name": "ІТ-22",
+    "studentCount": 28,
+    "hasSubgroups": false
+  },
+  {
+    "id": 8,
+    "streamId": 8,
+    "departmentId": 2,
+    "name": "ІТ-33",
+    "studentCount": 36,
+    "hasSubgroups": true
+  },
+  {
+    "id": 9,
+    "streamId": 9,
+    "departmentId": 2,
+    "name": "ІТ-44",
+    "studentCount": 38,
+    "hasSubgroups": true
+  },
+  {
+    "id": 10,
+    "streamId": 10,
+    "departmentId": 2,
+    "name": "ІТ-55",
+    "studentCount": 39,
+    "hasSubgroups": true
+  },
+  {
+    "id": 11,
+    "streamId": 11,
+    "departmentId": 3,
+    "name": "СА-11",
+    "studentCount": 34,
+    "hasSubgroups": true
+  },
+  {
+    "id": 12,
+    "streamId": 12,
+    "departmentId": 3,
+    "name": "СА-22",
+    "studentCount": 26,
+    "hasSubgroups": false
+  },
+  {
+    "id": 13,
+    "streamId": 13,
+    "departmentId": 3,
+    "name": "СА-33",
+    "studentCount": 26,
+    "hasSubgroups": false
+  },
+  {
+    "id": 14,
+    "streamId": 14,
+    "departmentId": 3,
+    "name": "СА-44",
+    "studentCount": 32,
+    "hasSubgroups": true
+  },
+  {
+    "id": 15,
+    "streamId": 15,
+    "departmentId": 3,
+    "name": "СА-55",
+    "studentCount": 38,
+    "hasSubgroups": true
+  }
+]

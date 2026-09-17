@@ -1,0 +1,31 @@
+<h2 mat-dialog-title>{{ data.subject ? 'Редагувати предмет' : 'Новий предмет' }}</h2>
+<mat-dialog-content>
+  <form [formGroup]="form" class="form-grid">
+    <mat-form-field appearance="outline">
+      <mat-label>Назва предмету</mat-label>
+      <input matInput formControlName="name" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Кафедра</mat-label>
+      <mat-select formControlName="departmentId">
+        <mat-option *ngFor="let dept of data.departments" [value]="dept.id">{{ dept.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Потік (курс)</mat-label>
+      <mat-select formControlName="streamId">
+        <mat-option *ngFor="let stream of filteredStreams" [value]="stream.id">{{ stream.courseYear }} курс</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Викладач</mat-label>
+      <mat-select formControlName="teacherId">
+        <mat-option *ngFor="let t of teachers" [value]="t.id">{{ t.lastName }} {{ t.firstName }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Скасувати</button>
+  <button mat-raised-button color="primary" (click)="save()">Зберегти</button>
+</mat-dialog-actions>

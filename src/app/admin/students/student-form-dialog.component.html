@@ -1,0 +1,44 @@
+<h2 mat-dialog-title>{{ data.student ? 'Редагувати студента' : 'Новий студент' }}</h2>
+<mat-dialog-content>
+  <form [formGroup]="form" class="form-grid">
+    <mat-form-field appearance="outline">
+      <mat-label>Прізвище</mat-label>
+      <input matInput formControlName="lastName" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Ім'я</mat-label>
+      <input matInput formControlName="firstName" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" type="email" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Телефон</mat-label>
+      <input matInput formControlName="phone" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Група (потік)</mat-label>
+      <mat-select formControlName="groupId">
+        <mat-option *ngFor="let group of data.groups" [value]="group.id">{{ group.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline" *ngIf="showSubgroupField">
+      <mat-label>Підгрупа</mat-label>
+      <mat-select formControlName="subgroup">
+        <mat-option [value]="1">Підгрупа 1</mat-option>
+        <mat-option [value]="2">Підгрупа 2</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Предмети з іншої кафедри (1-2)</mat-label>
+      <mat-select formControlName="electiveSubjectIds" multiple>
+        <mat-option *ngFor="let subj of electiveOptions" [value]="subj.id">{{ subj.name }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Скасувати</button>
+  <button mat-raised-button color="primary" (click)="save()">Зберегти</button>
+</mat-dialog-actions>

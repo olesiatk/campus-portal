@@ -1,0 +1,17 @@
+<app-page-header
+  [title]="'Вітаємо, ' + (teacher?.firstName || '')"
+  subtitle="Огляд ваших предметів і студентів"
+></app-page-header>
+
+<div class="stats-grid" *ngIf="stats">
+  <mat-card class="stat-card">
+    <mat-icon>menu_book</mat-icon>
+    <div class="stat-card__value">{{ stats.subjects }}</div>
+    <div class="stat-card__label">Ваші предмети</div>
+  </mat-card>
+  <mat-card class="stat-card">
+    <mat-icon>groups</mat-icon>
+    <div class="stat-card__value">{{ stats.students }}</div>
+    <div class="stat-card__label">Ваші студенти</div>
+  </mat-card>
+</div>

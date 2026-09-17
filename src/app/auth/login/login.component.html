@@ -1,0 +1,31 @@
+<div class="auth-page">
+  <mat-card class="auth-card">
+    <h1>Інститут прикладної математики</h1>
+    <p class="auth-card__subtitle">Вхід до особистого кабінету</p>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" type="email" autocomplete="email" />
+        <mat-error *ngIf="form.get('email')?.hasError('required')">Введіть email</mat-error>
+        <mat-error *ngIf="form.get('email')?.hasError('email')">Некоректний email</mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Пароль</mat-label>
+        <input matInput formControlName="password" type="password" autocomplete="current-password" />
+        <mat-error *ngIf="form.get('password')?.hasError('required')">Введіть пароль</mat-error>
+      </mat-form-field>
+
+      <p class="auth-card__error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+      <button mat-raised-button color="primary" class="full-width" type="submit" [disabled]="submitting">
+        Увійти
+      </button>
+    </form>
+
+    <p class="auth-card__footer">
+      Ще немає облікового запису? <a routerLink="/signup">Зареєструватись</a>
+    </p>
+  </mat-card>
+</div>

@@ -1,0 +1,82 @@
+<div class="auth-page">
+  <mat-card class="auth-card">
+    <h1>Реєстрація</h1>
+
+    <ng-container *ngIf="!submitted">
+      <p class="auth-card__subtitle">
+        Заповніть заявку — адміністратор підтвердить її та надішле пароль на вашу пошту.
+      </p>
+
+      <form [formGroup]="form" (ngSubmit)="submit()">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Роль</mat-label>
+          <mat-select formControlName="role">
+            <mat-option value="student">Студент</mat-option>
+            <mat-option value="teacher">Викладач</mat-option>
+            <mat-option value="dean">Декан</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Кафедра</mat-label>
+          <mat-select formControlName="departmentId">
+            <mat-option *ngFor="let dept of departments" [value]="dept.id">{{ dept.name }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <ng-container *ngIf="isStudent">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Потік (курс)</mat-label>
+            <mat-select formControlName="groupId">
+              <mat-option *ngFor="let opt of groupOptions" [value]="opt.group.id">
+                {{ opt.courseYear }} курс — група {{ opt.group.name }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Ім'я</mat-label>
+            <input matInput formControlName="firstName" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Прізвище</mat-label>
+            <input matInput formControlName="lastName" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" type="email" />
+          </mat-form-field>
+        </ng-container>
+
+        <ng-container *ngIf="!isStudent">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Оберіть себе зі списку</mat-label>
+            <mat-select formControlName="targetUserId">
+              <mat-option *ngFor="let person of existingPeople" [value]="person.id">
+                {{ person.lastName }} {{ person.firstName }} ({{ person.email }})
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </ng-container>
+
+        <p class="auth-card__error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+        <button mat-raised-button color="primary" class="full-width" type="submit" [disabled]="submitting">
+          Надіслати заявку
+        </button>
+      </form>
+    </ng-container>
+
+    <ng-container *ngIf="submitted">
+      <p class="auth-card__success">
+        Заявку надіслано! Очікуйте на підтвердження від адміністратора — пароль надійде на вашу пошту.
+      </p>
+    </ng-container>
+
+    <p class="auth-card__footer">
+      Вже маєте пароль? <a routerLink="/login">Увійти</a>
+    </p>
+  </mat-card>
+</div>

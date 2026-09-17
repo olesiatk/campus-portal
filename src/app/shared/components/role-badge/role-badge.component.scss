@@ -1,0 +1,21 @@
+.role-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+
+  &--admin {
+    background: #6a1b9a;
+  }
+  &--dean {
+    background: #ad1457;
+  }
+  &--teacher {
+    background: #00695c;
+  }
+  &--student {
+    background: #1565c0;
+  }
+}

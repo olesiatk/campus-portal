@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "departmentId": 1,
+    "courseYear": 1,
+    "name": "1 курс"
+  },
+  {
+    "id": 2,
+    "departmentId": 1,
+    "courseYear": 2,
+    "name": "2 курс"
+  },
+  {
+    "id": 3,
+    "departmentId": 1,
+    "courseYear": 3,
+    "name": "3 курс"
+  },
+  {
+    "id": 4,
+    "departmentId": 1,
+    "courseYear": 4,
+    "name": "4 курс"
+  },
+  {
+    "id": 5,
+    "departmentId": 1,
+    "courseYear": 5,
+    "name": "5 курс"
+  },
+  {
+    "id": 6,
+    "departmentId": 2,
+    "courseYear": 1,
+    "name": "1 курс"
+  },
+  {
+    "id": 7,
+    "departmentId": 2,
+    "courseYear": 2,
+    "name": "2 курс"
+  },
+  {
+    "id": 8,
+    "departmentId": 2,
+    "courseYear": 3,
+    "name": "3 курс"
+  },
+  {
+    "id": 9,
+    "departmentId": 2,
+    "courseYear": 4,
+    "name": "4 курс"
+  },
+  {
+    "id": 10,
+    "departmentId": 2,
+    "courseYear": 5,
+    "name": "5 курс"
+  },
+  {
+    "id": 11,
+    "departmentId": 3,
+    "courseYear": 1,
+    "name": "1 курс"
+  },
+  {
+    "id": 12,
+    "departmentId": 3,
+    "courseYear": 2,
+    "name": "2 курс"
+  },
+  {
+    "id": 13,
+    "departmentId": 3,
+    "courseYear": 3,
+    "name": "3 курс"
+  },
+  {
+    "id": 14,
+    "departmentId": 3,
+    "courseYear": 4,
+    "name": "4 курс"
+  },
+  {
+    "id": 15,
+    "departmentId": 3,
+    "courseYear": 5,
+    "name": "5 курс"
+  }
+]

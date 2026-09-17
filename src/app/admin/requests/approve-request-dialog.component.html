@@ -1,0 +1,24 @@
+<h2 mat-dialog-title>Підтвердити заявку</h2>
+<mat-dialog-content>
+  <p>
+    {{ data.request.lastName || '' }} {{ data.request.firstName || '' }}
+    <br />
+    Email: <strong>{{ data.request.email }}</strong>
+  </p>
+  <p>Задайте пароль, який буде надіслано користувачу на пошту:</p>
+
+  <form [formGroup]="form" class="password-row">
+    <mat-form-field appearance="outline">
+      <mat-label>Пароль</mat-label>
+      <input matInput formControlName="password" />
+      <mat-error *ngIf="form.get('password')?.hasError('minlength')">Мінімум 6 символів</mat-error>
+    </mat-form-field>
+    <button mat-stroked-button type="button" (click)="regenerate()">
+      <mat-icon>refresh</mat-icon>
+    </button>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Скасувати</button>
+  <button mat-raised-button color="primary" (click)="confirm()">Підтвердити та надіслати</button>
+</mat-dialog-actions>

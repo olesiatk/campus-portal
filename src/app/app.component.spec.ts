@@ -1,30 +1,20 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterModule } from '@angular/router';
-import { App } from './app.component';
 
-describe('App', () => {
+import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
+
+describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        RouterModule.forRoot([])
-      ],
-      declarations: [
-        App
-      ],
-    })
-      .compileComponents();
+      imports: [RouterModule.forRoot([]), SharedModule],
+      declarations: [AppComponent],
+    }).compileComponents();
   });
 
   it('should create the app', () => {
-    const fixture = TestBed.createComponent(App);
+    const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(App);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-pet-project');
   });
 });

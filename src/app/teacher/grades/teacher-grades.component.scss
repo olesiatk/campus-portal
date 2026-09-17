@@ -1,0 +1,29 @@
+.grade-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 900px;
+
+  mat-form-field {
+    max-width: 320px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+}
+
+.comment-field {
+  flex: 1 1 240px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+h3 {
+  margin: 8px 0;
+}

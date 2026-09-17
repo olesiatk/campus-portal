@@ -1,0 +1,8021 @@
+[
+  {
+    "id": 1,
+    "role": "teacher",
+    "firstName": "Катерина",
+    "lastName": "Панченко",
+    "email": "kateryna.panchenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 926 67-80",
+    "departmentId": 1
+  },
+  {
+    "id": 2,
+    "role": "teacher",
+    "firstName": "Анна",
+    "lastName": "Бойко",
+    "email": "anna.boiko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 935 14-62",
+    "departmentId": 1
+  },
+  {
+    "id": 3,
+    "role": "teacher",
+    "firstName": "Людмила",
+    "lastName": "Мельник",
+    "email": "liudmyla.melnyk@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 777 59-72",
+    "departmentId": 1
+  },
+  {
+    "id": 4,
+    "role": "teacher",
+    "firstName": "Марко",
+    "lastName": "Литвиненко",
+    "email": "marko.lytvynenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 157 18-20",
+    "departmentId": 1
+  },
+  {
+    "id": 5,
+    "role": "teacher",
+    "firstName": "Владислав",
+    "lastName": "Іванченко",
+    "email": "vladyslav.ivanchenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 641 32-48",
+    "departmentId": 1
+  },
+  {
+    "id": 6,
+    "role": "dean",
+    "firstName": "Діана",
+    "lastName": "Костюк",
+    "email": "diana.kostiuk@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 598 79-99",
+    "departmentId": 1
+  },
+  {
+    "id": 7,
+    "role": "dean",
+    "firstName": "Наталія",
+    "lastName": "Ткаченко",
+    "email": "nataliia.tkachenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 136 84-50",
+    "departmentId": 1
+  },
+  {
+    "id": 8,
+    "role": "teacher",
+    "firstName": "Руслан",
+    "lastName": "Демченко",
+    "email": "ruslan.demchenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 321 83-65",
+    "departmentId": 2
+  },
+  {
+    "id": 9,
+    "role": "teacher",
+    "firstName": "Тарас",
+    "lastName": "Швачко",
+    "email": "taras.shvachko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 498 57-78",
+    "departmentId": 2
+  },
+  {
+    "id": 10,
+    "role": "teacher",
+    "firstName": "Руслан",
+    "lastName": "Романюк",
+    "email": "ruslan.romaniuk@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 762 97-14",
+    "departmentId": 2
+  },
+  {
+    "id": 11,
+    "role": "teacher",
+    "firstName": "Софія",
+    "lastName": "Коваленко",
+    "email": "sofiia.kovalenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 588 12-31",
+    "departmentId": 2
+  },
+  {
+    "id": 12,
+    "role": "teacher",
+    "firstName": "Світлана",
+    "lastName": "Клименко",
+    "email": "svitlana.klymenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 260 64-14",
+    "departmentId": 2
+  },
+  {
+    "id": 13,
+    "role": "dean",
+    "firstName": "Назар",
+    "lastName": "Клименко",
+    "email": "nazar.klymenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 400 33-98",
+    "departmentId": 2
+  },
+  {
+    "id": 14,
+    "role": "dean",
+    "firstName": "Валентина",
+    "lastName": "Кравченко",
+    "email": "valentyna.kravchenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 629 93-81",
+    "departmentId": 2
+  },
+  {
+    "id": 15,
+    "role": "teacher",
+    "firstName": "Данило",
+    "lastName": "Савченко",
+    "email": "danylo.savchenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 339 78-76",
+    "departmentId": 3
+  },
+  {
+    "id": 16,
+    "role": "teacher",
+    "firstName": "Іван",
+    "lastName": "Даниленко",
+    "email": "ivan.danylenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 348 26-23",
+    "departmentId": 3
+  },
+  {
+    "id": 17,
+    "role": "teacher",
+    "firstName": "Олег",
+    "lastName": "Тимошенко",
+    "email": "oleh.tymoshenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 107 15-40",
+    "departmentId": 3
+  },
+  {
+    "id": 18,
+    "role": "teacher",
+    "firstName": "Софія",
+    "lastName": "Тимошенко",
+    "email": "sofiia.tymoshenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 344 33-24",
+    "departmentId": 3
+  },
+  {
+    "id": 19,
+    "role": "teacher",
+    "firstName": "Максим",
+    "lastName": "Даниленко",
+    "email": "maksym.danylenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 356 63-37",
+    "departmentId": 3
+  },
+  {
+    "id": 20,
+    "role": "dean",
+    "firstName": "Лілія",
+    "lastName": "Бондаренко",
+    "email": "liliia.bondarenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 111 57-36",
+    "departmentId": 3
+  },
+  {
+    "id": 21,
+    "role": "dean",
+    "firstName": "Олена",
+    "lastName": "Дяченко",
+    "email": "olena.diachenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 465 68-32",
+    "departmentId": 3
+  },
+  {
+    "id": 22,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Тимошенко",
+    "email": "ostap.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 835 39-51",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      52
+    ]
+  },
+  {
+    "id": 23,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Онищенко",
+    "email": "liudmyla.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 432 83-66",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      87
+    ]
+  },
+  {
+    "id": 24,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Мельник",
+    "email": "iryna.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 128 45-56",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      47
+    ]
+  },
+  {
+    "id": 25,
+    "role": "student",
+    "firstName": "Віталій",
+    "lastName": "Гриценко",
+    "email": "vitalii.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 984 98-99",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      88
+    ]
+  },
+  {
+    "id": 26,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Даниленко",
+    "email": "liliia.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 397 31-77",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      88
+    ]
+  },
+  {
+    "id": 27,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Поліщук",
+    "email": "ihor.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 243 32-64",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      47,
+      91
+    ]
+  },
+  {
+    "id": 28,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Гаврилюк",
+    "email": "ihor.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 274 29-64",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      52,
+      91
+    ]
+  },
+  {
+    "id": 29,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Пономаренко",
+    "email": "tetiana.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 384 45-35",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      50,
+      86
+    ]
+  },
+  {
+    "id": 30,
+    "role": "student",
+    "firstName": "Сергій",
+    "lastName": "Руденко",
+    "email": "serhii.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 763 30-15",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      94,
+      51
+    ]
+  },
+  {
+    "id": 31,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Савченко",
+    "email": "mariia.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 936 45-26",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      91
+    ]
+  },
+  {
+    "id": 32,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Кириленко",
+    "email": "valentyna.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 644 21-58",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      89,
+      50
+    ]
+  },
+  {
+    "id": 33,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Демченко",
+    "email": "viktoriia.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 875 56-22",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      46
+    ]
+  },
+  {
+    "id": 34,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Гаврилюк",
+    "email": "solomiia.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 279 97-42",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      46
+    ]
+  },
+  {
+    "id": 35,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Гаврилюк",
+    "email": "svitlana.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 980 51-45",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      89,
+      46
+    ]
+  },
+  {
+    "id": 36,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Остапенко",
+    "email": "inna.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 805 16-38",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      48
+    ]
+  },
+  {
+    "id": 37,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Василенко",
+    "email": "liudmyla.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 359 53-38",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      94
+    ]
+  },
+  {
+    "id": 38,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Дяченко",
+    "email": "olena.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 753 10-12",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      86,
+      51
+    ]
+  },
+  {
+    "id": 39,
+    "role": "student",
+    "firstName": "Галина",
+    "lastName": "Литвиненко",
+    "email": "halyna.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 893 24-42",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      45
+    ]
+  },
+  {
+    "id": 40,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Захарчук",
+    "email": "maryna.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 668 54-99",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      86,
+      50
+    ]
+  },
+  {
+    "id": 41,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Дяченко",
+    "email": "dmytro.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 679 21-99",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      87,
+      47
+    ]
+  },
+  {
+    "id": 42,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Бондаренко",
+    "email": "diana.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 812 43-45",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      49
+    ]
+  },
+  {
+    "id": 43,
+    "role": "student",
+    "firstName": "Олександр",
+    "lastName": "Василенко",
+    "email": "oleksandr.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 182 79-69",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      92
+    ]
+  },
+  {
+    "id": 44,
+    "role": "student",
+    "firstName": "Віталій",
+    "lastName": "Онищенко",
+    "email": "vitalii.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 441 79-15",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      93
+    ]
+  },
+  {
+    "id": 45,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Кириленко",
+    "email": "viktoriia.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 724 17-47",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      48
+    ]
+  },
+  {
+    "id": 46,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Приходько",
+    "email": "khrystyna.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 348 60-52",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      86,
+      53
+    ]
+  },
+  {
+    "id": 47,
+    "role": "student",
+    "firstName": "Богдан",
+    "lastName": "Дяченко",
+    "email": "bohdan.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 124 85-54",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      90,
+      45
+    ]
+  },
+  {
+    "id": 48,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Панченко",
+    "email": "olena.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 461 93-44",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      53,
+      86
+    ]
+  },
+  {
+    "id": 49,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Даниленко",
+    "email": "zakhar.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 311 36-24",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      87
+    ]
+  },
+  {
+    "id": 50,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Науменко",
+    "email": "khrystyna.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 205 42-54",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      47
+    ]
+  },
+  {
+    "id": 51,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Кириленко",
+    "email": "zakhar.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 398 26-58",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      86
+    ]
+  },
+  {
+    "id": 52,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Гаврилюк",
+    "email": "uliana.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 244 71-79",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      51
+    ]
+  },
+  {
+    "id": 53,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Савченко",
+    "email": "nazar.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 856 39-90",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      92,
+      53
+    ]
+  },
+  {
+    "id": 54,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Мельник",
+    "email": "kyrylo.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 424 27-70",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      47,
+      92
+    ]
+  },
+  {
+    "id": 55,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Бойко",
+    "email": "inna.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 699 81-75",
+    "departmentId": 1,
+    "streamId": 1,
+    "groupId": 1,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      49
+    ]
+  },
+  {
+    "id": 56,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Сидоренко",
+    "email": "olena.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 716 24-71",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      103,
+      60
+    ]
+  },
+  {
+    "id": 57,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Панченко",
+    "email": "kateryna.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 970 87-67",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      99
+    ]
+  },
+  {
+    "id": 58,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Захарченко",
+    "email": "diana.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 467 38-24",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      56
+    ]
+  },
+  {
+    "id": 59,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Руденко",
+    "email": "liliia.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 443 26-82",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      61,
+      100
+    ]
+  },
+  {
+    "id": 60,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Даниленко",
+    "email": "ievhen.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 612 82-24",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      97
+    ]
+  },
+  {
+    "id": 61,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Ткачук",
+    "email": "artem.tkachuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 440 88-90",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      98,
+      59
+    ]
+  },
+  {
+    "id": 62,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Шевченко",
+    "email": "khrystyna.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 385 24-78",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      98,
+      57
+    ]
+  },
+  {
+    "id": 63,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Іванченко",
+    "email": "svitlana.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 705 20-65",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      54,
+      103
+    ]
+  },
+  {
+    "id": 64,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Науменко",
+    "email": "artem.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 255 66-24",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      101,
+      61
+    ]
+  },
+  {
+    "id": 65,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Демченко",
+    "email": "valentyn.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 517 94-54",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      60,
+      103
+    ]
+  },
+  {
+    "id": 66,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Руденко",
+    "email": "roman.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 919 59-96",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      101,
+      60
+    ]
+  },
+  {
+    "id": 67,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Шевченко",
+    "email": "artem.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 227 93-89",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      59,
+      99
+    ]
+  },
+  {
+    "id": 68,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Савченко",
+    "email": "iurii.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 679 55-81",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      61,
+      97
+    ]
+  },
+  {
+    "id": 69,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Демченко",
+    "email": "iaroslav.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 774 73-80",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      55,
+      99
+    ]
+  },
+  {
+    "id": 70,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Пономаренко",
+    "email": "iryna.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 131 75-50",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      96
+    ]
+  },
+  {
+    "id": 71,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Кириленко",
+    "email": "kyrylo.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 257 19-13",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      103
+    ]
+  },
+  {
+    "id": 72,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Литвиненко",
+    "email": "nazar.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 321 43-12",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      54
+    ]
+  },
+  {
+    "id": 73,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Василенко",
+    "email": "iurii.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 423 76-20",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      57
+    ]
+  },
+  {
+    "id": 74,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Мельник",
+    "email": "tetiana.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 618 36-57",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      102,
+      59
+    ]
+  },
+  {
+    "id": 75,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Онищенко",
+    "email": "nazar.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 649 93-68",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      61
+    ]
+  },
+  {
+    "id": 76,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Швачко",
+    "email": "tetiana.shvachko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 680 80-95",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      58,
+      101
+    ]
+  },
+  {
+    "id": 77,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Поліщук",
+    "email": "artem.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 760 69-39",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      61,
+      98
+    ]
+  },
+  {
+    "id": 78,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Литвиненко",
+    "email": "uliana.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 538 60-80",
+    "departmentId": 1,
+    "streamId": 2,
+    "groupId": 2,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      56,
+      101
+    ]
+  },
+  {
+    "id": 79,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Костюк",
+    "email": "tymur.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 972 86-26",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      66,
+      107
+    ]
+  },
+  {
+    "id": 80,
+    "role": "student",
+    "firstName": "Юлія",
+    "lastName": "Іванченко",
+    "email": "iuliia.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 116 78-52",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      66
+    ]
+  },
+  {
+    "id": 81,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Романюк",
+    "email": "oksana.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 660 75-19",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      64,
+      104
+    ]
+  },
+  {
+    "id": 82,
+    "role": "student",
+    "firstName": "Степан",
+    "lastName": "Григоренко",
+    "email": "stepan.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 131 54-44",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      67,
+      109
+    ]
+  },
+  {
+    "id": 83,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Ткаченко",
+    "email": "roman.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 142 69-74",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      67
+    ]
+  },
+  {
+    "id": 84,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Сидоренко",
+    "email": "ivan.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 103 76-30",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      104
+    ]
+  },
+  {
+    "id": 85,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Литвиненко",
+    "email": "valentyna.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 444 47-67",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      65
+    ]
+  },
+  {
+    "id": 86,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Кириленко",
+    "email": "iryna.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 123 56-14",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      107
+    ]
+  },
+  {
+    "id": 87,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Савченко",
+    "email": "olena.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 210 80-87",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      67,
+      108
+    ]
+  },
+  {
+    "id": 88,
+    "role": "student",
+    "firstName": "Степан",
+    "lastName": "Мельник",
+    "email": "stepan.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 285 60-43",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      104
+    ]
+  },
+  {
+    "id": 89,
+    "role": "student",
+    "firstName": "Яна",
+    "lastName": "Тимошенко",
+    "email": "iana.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 703 75-60",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      109,
+      67
+    ]
+  },
+  {
+    "id": 90,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Панченко",
+    "email": "dmytro.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 177 25-21",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      62,
+      111
+    ]
+  },
+  {
+    "id": 91,
+    "role": "student",
+    "firstName": "Степан",
+    "lastName": "Іванченко",
+    "email": "stepan.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 354 48-70",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      68
+    ]
+  },
+  {
+    "id": 92,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Савченко",
+    "email": "valentyn.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 755 69-13",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      106,
+      63
+    ]
+  },
+  {
+    "id": 93,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Василенко",
+    "email": "alina.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 341 50-70",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      68,
+      106
+    ]
+  },
+  {
+    "id": 94,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Даниленко",
+    "email": "olena.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 922 78-12",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      106,
+      69
+    ]
+  },
+  {
+    "id": 95,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Науменко",
+    "email": "alina.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 383 51-99",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      66,
+      105
+    ]
+  },
+  {
+    "id": 96,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Руденко",
+    "email": "alina.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 529 39-27",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      68
+    ]
+  },
+  {
+    "id": 97,
+    "role": "student",
+    "firstName": "Сергій",
+    "lastName": "Онищенко",
+    "email": "serhii.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 211 10-95",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      104
+    ]
+  },
+  {
+    "id": 98,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Сидоренко",
+    "email": "roman.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 926 67-94",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      106,
+      64
+    ]
+  },
+  {
+    "id": 99,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Бойко",
+    "email": "valentyna.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 507 54-20",
+    "departmentId": 1,
+    "streamId": 3,
+    "groupId": 3,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      108
+    ]
+  },
+  {
+    "id": 100,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Марченко",
+    "email": "taras.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 613 88-90",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      113
+    ]
+  },
+  {
+    "id": 101,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Гаврилюк",
+    "email": "inna.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 944 37-90",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      115
+    ]
+  },
+  {
+    "id": 102,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Костюк",
+    "email": "oksana.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 526 45-88",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      118
+    ]
+  },
+  {
+    "id": 103,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Кравченко",
+    "email": "liliia.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 145 24-55",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      113
+    ]
+  },
+  {
+    "id": 104,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Демченко",
+    "email": "nazar.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 250 68-50",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      73,
+      120
+    ]
+  },
+  {
+    "id": 105,
+    "role": "student",
+    "firstName": "Богдан",
+    "lastName": "Гаврилюк",
+    "email": "bohdan.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 709 26-23",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      119
+    ]
+  },
+  {
+    "id": 106,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Науменко",
+    "email": "iryna.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 766 93-65",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      117,
+      74
+    ]
+  },
+  {
+    "id": 107,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Бойко",
+    "email": "tetiana.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 104 82-63",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      118
+    ]
+  },
+  {
+    "id": 108,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Мельник",
+    "email": "dmytro.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 992 40-47",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      70
+    ]
+  },
+  {
+    "id": 109,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Гаврилюк",
+    "email": "kateryna.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 216 32-74",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      115
+    ]
+  },
+  {
+    "id": 110,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Романюк",
+    "email": "anna.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 499 86-84",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      75,
+      112
+    ]
+  },
+  {
+    "id": 111,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Панченко",
+    "email": "inna.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 413 87-17",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      77,
+      120
+    ]
+  },
+  {
+    "id": 112,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Онищенко",
+    "email": "khrystyna.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 586 50-59",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      76
+    ]
+  },
+  {
+    "id": 113,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Коваленко",
+    "email": "vladyslav.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 362 60-86",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      120,
+      75
+    ]
+  },
+  {
+    "id": 114,
+    "role": "student",
+    "firstName": "Марко",
+    "lastName": "Савченко",
+    "email": "marko.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 771 94-13",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      70,
+      120
+    ]
+  },
+  {
+    "id": 115,
+    "role": "student",
+    "firstName": "Дарина",
+    "lastName": "Захарченко",
+    "email": "daryna.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 543 86-71",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      117
+    ]
+  },
+  {
+    "id": 116,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Захарченко",
+    "email": "ievhen.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 237 29-40",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      73
+    ]
+  },
+  {
+    "id": 117,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Захарчук",
+    "email": "kateryna.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 583 71-50",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      114
+    ]
+  },
+  {
+    "id": 118,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Гончаренко",
+    "email": "vladyslav.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 475 65-16",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      71,
+      113
+    ]
+  },
+  {
+    "id": 119,
+    "role": "student",
+    "firstName": "Зоряна",
+    "lastName": "Мельничук",
+    "email": "zoriana.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 434 99-22",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      71,
+      116
+    ]
+  },
+  {
+    "id": 120,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Гончаренко",
+    "email": "alina.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 691 15-18",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      118
+    ]
+  },
+  {
+    "id": 121,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Науменко",
+    "email": "liliia.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 942 99-34",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      113,
+      73
+    ]
+  },
+  {
+    "id": 122,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Науменко",
+    "email": "ivan.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 250 99-98",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      72,
+      112
+    ]
+  },
+  {
+    "id": 123,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Іванченко",
+    "email": "vladyslav.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 632 29-31",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      114
+    ]
+  },
+  {
+    "id": 124,
+    "role": "student",
+    "firstName": "Вероніка",
+    "lastName": "Марченко",
+    "email": "veronika.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 280 65-66",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      72
+    ]
+  },
+  {
+    "id": 125,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Костюк",
+    "email": "khrystyna.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 510 90-79",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      115
+    ]
+  },
+  {
+    "id": 126,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Гаврилюк",
+    "email": "ievhen.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 180 91-88",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      113
+    ]
+  },
+  {
+    "id": 127,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Бойко",
+    "email": "maksym.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 548 43-53",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      75
+    ]
+  },
+  {
+    "id": 128,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Костюк",
+    "email": "bohdana.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 904 50-45",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      114,
+      75
+    ]
+  },
+  {
+    "id": 129,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Дяченко",
+    "email": "kyrylo.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 267 51-93",
+    "departmentId": 1,
+    "streamId": 4,
+    "groupId": 4,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      120,
+      73
+    ]
+  },
+  {
+    "id": 130,
+    "role": "student",
+    "firstName": "Степан",
+    "lastName": "Тимошенко",
+    "email": "stepan.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 109 58-96",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      125,
+      82
+    ]
+  },
+  {
+    "id": 131,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Кравченко",
+    "email": "iryna.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 571 42-51",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      122
+    ]
+  },
+  {
+    "id": 132,
+    "role": "student",
+    "firstName": "Марко",
+    "lastName": "Клименко",
+    "email": "marko.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 619 82-79",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      123,
+      83
+    ]
+  },
+  {
+    "id": 133,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Василенко",
+    "email": "roman.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 453 53-32",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      121
+    ]
+  },
+  {
+    "id": 134,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Коваленко",
+    "email": "kyrylo.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 799 71-11",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      124,
+      80
+    ]
+  },
+  {
+    "id": 135,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Пономаренко",
+    "email": "vladyslav.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 665 44-73",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      84,
+      125
+    ]
+  },
+  {
+    "id": 136,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Остапенко",
+    "email": "ihor.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 410 24-36",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      78,
+      121
+    ]
+  },
+  {
+    "id": 137,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Коваленко",
+    "email": "ihor.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 287 25-13",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      81,
+      129
+    ]
+  },
+  {
+    "id": 138,
+    "role": "student",
+    "firstName": "Софія",
+    "lastName": "Шевченко",
+    "email": "sofiia.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 858 89-72",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      123,
+      79
+    ]
+  },
+  {
+    "id": 139,
+    "role": "student",
+    "firstName": "Марко",
+    "lastName": "Сидоренко",
+    "email": "marko.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 703 25-84",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      79,
+      126
+    ]
+  },
+  {
+    "id": 140,
+    "role": "student",
+    "firstName": "Марко",
+    "lastName": "Романюк",
+    "email": "marko.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 850 85-34",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      127,
+      83
+    ]
+  },
+  {
+    "id": 141,
+    "role": "student",
+    "firstName": "Руслан",
+    "lastName": "Руденко",
+    "email": "ruslan.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 935 55-15",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      124
+    ]
+  },
+  {
+    "id": 142,
+    "role": "student",
+    "firstName": "Данило",
+    "lastName": "Гриценко",
+    "email": "danylo.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 653 77-61",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      81,
+      126
+    ]
+  },
+  {
+    "id": 143,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Остапенко",
+    "email": "inna.ostapenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 161 80-74",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      82,
+      123
+    ]
+  },
+  {
+    "id": 144,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Мельничук",
+    "email": "diana.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 139 20-94",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      128
+    ]
+  },
+  {
+    "id": 145,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Захарченко",
+    "email": "ostap.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 460 57-12",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      85,
+      123
+    ]
+  },
+  {
+    "id": 146,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Клименко",
+    "email": "mariia.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 159 16-80",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      85
+    ]
+  },
+  {
+    "id": 147,
+    "role": "student",
+    "firstName": "Юлія",
+    "lastName": "Мельник",
+    "email": "iuliia.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 413 82-44",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      82,
+      129
+    ]
+  },
+  {
+    "id": 148,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Руденко",
+    "email": "mykola.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 965 26-43",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      79
+    ]
+  },
+  {
+    "id": 149,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Литвиненко",
+    "email": "anna.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 167 24-10",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      126,
+      79
+    ]
+  },
+  {
+    "id": 150,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Остапенко",
+    "email": "valentyn.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 433 61-77",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      124,
+      85
+    ]
+  },
+  {
+    "id": 151,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Остапенко",
+    "email": "ivan.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 612 92-82",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      78,
+      124
+    ]
+  },
+  {
+    "id": 152,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Бойко",
+    "email": "olha.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 899 32-16",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      81
+    ]
+  },
+  {
+    "id": 153,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Кириленко",
+    "email": "solomiia.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 946 59-26",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      124,
+      82
+    ]
+  },
+  {
+    "id": 154,
+    "role": "student",
+    "firstName": "Данило",
+    "lastName": "Даниленко",
+    "email": "danylo.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 842 88-71",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      125,
+      80
+    ]
+  },
+  {
+    "id": 155,
+    "role": "student",
+    "firstName": "Олег",
+    "lastName": "Остапенко",
+    "email": "oleh.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 389 48-40",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      124
+    ]
+  },
+  {
+    "id": 156,
+    "role": "student",
+    "firstName": "Софія",
+    "lastName": "Бойко",
+    "email": "sofiia.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 248 11-10",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      128
+    ]
+  },
+  {
+    "id": 157,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Захарченко",
+    "email": "anna.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 595 98-91",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      123,
+      81
+    ]
+  },
+  {
+    "id": 158,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Демченко",
+    "email": "ivan.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 653 28-17",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      82,
+      128
+    ]
+  },
+  {
+    "id": 159,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Ткаченко",
+    "email": "iaroslav.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 978 30-98",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      80,
+      123
+    ]
+  },
+  {
+    "id": 160,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Швачко",
+    "email": "nazar.shvachko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 906 88-64",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      123
+    ]
+  },
+  {
+    "id": 161,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Клименко",
+    "email": "olha.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 346 48-95",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      80,
+      128
+    ]
+  },
+  {
+    "id": 162,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Руденко",
+    "email": "zakhar.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 579 29-41",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      85,
+      122
+    ]
+  },
+  {
+    "id": 163,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Науменко",
+    "email": "ostap.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 333 99-76",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      79,
+      125
+    ]
+  },
+  {
+    "id": 164,
+    "role": "student",
+    "firstName": "Дарина",
+    "lastName": "Остапенко",
+    "email": "daryna.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 198 58-92",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      80,
+      128
+    ]
+  },
+  {
+    "id": 165,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Іванченко",
+    "email": "mariia.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 451 16-29",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      83,
+      121
+    ]
+  },
+  {
+    "id": 166,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Поліщук",
+    "email": "bohdana.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 453 77-72",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      125,
+      82
+    ]
+  },
+  {
+    "id": 167,
+    "role": "student",
+    "firstName": "Олександр",
+    "lastName": "Клименко",
+    "email": "oleksandr.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 447 33-49",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      85
+    ]
+  },
+  {
+    "id": 168,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Гаврилюк",
+    "email": "olha.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 132 52-16",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      78
+    ]
+  },
+  {
+    "id": 169,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Захарчук",
+    "email": "kyrylo.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 430 91-43",
+    "departmentId": 1,
+    "streamId": 5,
+    "groupId": 5,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      81
+    ]
+  },
+  {
+    "id": 170,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Панченко",
+    "email": "dmytro.panchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 235 93-13",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      89,
+      7
+    ]
+  },
+  {
+    "id": 171,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Захарчук",
+    "email": "tymur.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 743 66-10",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      89
+    ]
+  },
+  {
+    "id": 172,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Бондаренко",
+    "email": "ihor.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 299 65-60",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      93
+    ]
+  },
+  {
+    "id": 173,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Онищенко",
+    "email": "ostap.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 378 49-33",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      5,
+      94
+    ]
+  },
+  {
+    "id": 174,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Захарченко",
+    "email": "valentyn.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 750 67-20",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      88
+    ]
+  },
+  {
+    "id": 175,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Тимошенко",
+    "email": "ievhen.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 662 82-60",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      91,
+      9
+    ]
+  },
+  {
+    "id": 176,
+    "role": "student",
+    "firstName": "Микита",
+    "lastName": "Дяченко",
+    "email": "mykyta.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 484 30-63",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      7
+    ]
+  },
+  {
+    "id": 177,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Савченко",
+    "email": "myroslava.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 497 95-17",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      94,
+      8
+    ]
+  },
+  {
+    "id": 178,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Поліщук",
+    "email": "ievhen.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 408 14-65",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      94,
+      3
+    ]
+  },
+  {
+    "id": 179,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Гриценко",
+    "email": "bohdana.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 545 97-88",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      93
+    ]
+  },
+  {
+    "id": 180,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Мельничук",
+    "email": "mykola.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 691 83-77",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      9,
+      87
+    ]
+  },
+  {
+    "id": 181,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Мельничук",
+    "email": "khrystyna.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 531 70-98",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      2,
+      91
+    ]
+  },
+  {
+    "id": 182,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Демченко",
+    "email": "maryna.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 190 70-67",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      92,
+      7
+    ]
+  },
+  {
+    "id": 183,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Коваленко",
+    "email": "uliana.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 529 82-61",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      93,
+      2
+    ]
+  },
+  {
+    "id": 184,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Костюк",
+    "email": "diana.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 156 72-73",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      4,
+      86
+    ]
+  },
+  {
+    "id": 185,
+    "role": "student",
+    "firstName": "Богдан",
+    "lastName": "Костюк",
+    "email": "bohdan.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 441 94-94",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      89
+    ]
+  },
+  {
+    "id": 186,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Демченко",
+    "email": "tetiana.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 957 32-19",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      7
+    ]
+  },
+  {
+    "id": 187,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Кравченко",
+    "email": "valentyn.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 320 38-48",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      4
+    ]
+  },
+  {
+    "id": 188,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Гриценко",
+    "email": "myroslava.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 222 56-22",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      4,
+      94
+    ]
+  },
+  {
+    "id": 189,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Швачко",
+    "email": "ivan.shvachko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 479 10-63",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      6,
+      94
+    ]
+  },
+  {
+    "id": 190,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Кравченко",
+    "email": "zakhar.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 663 62-99",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      9,
+      88
+    ]
+  },
+  {
+    "id": 191,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Науменко",
+    "email": "solomiia.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 678 42-15",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      94
+    ]
+  },
+  {
+    "id": 192,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Сидоренко",
+    "email": "viktoriia.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 760 83-92",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      8,
+      87
+    ]
+  },
+  {
+    "id": 193,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Бондаренко",
+    "email": "olha.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 449 35-13",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      86,
+      9
+    ]
+  },
+  {
+    "id": 194,
+    "role": "student",
+    "firstName": "Андрій",
+    "lastName": "Демченко",
+    "email": "andrii.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 840 17-99",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      91,
+      6
+    ]
+  },
+  {
+    "id": 195,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Коваленко",
+    "email": "iaroslav.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 750 83-74",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      7
+    ]
+  },
+  {
+    "id": 196,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Дяченко",
+    "email": "artem.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 424 37-96",
+    "departmentId": 2,
+    "streamId": 6,
+    "groupId": 6,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      88
+    ]
+  },
+  {
+    "id": 197,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Григоренко",
+    "email": "svitlana.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 644 17-86",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      99
+    ]
+  },
+  {
+    "id": 198,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Онищенко",
+    "email": "nazar.onyshchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 447 29-99",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      98,
+      10
+    ]
+  },
+  {
+    "id": 199,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Іванченко",
+    "email": "maksym.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 357 25-82",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      102,
+      13
+    ]
+  },
+  {
+    "id": 200,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Гончаренко",
+    "email": "kyrylo.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 693 76-28",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      102,
+      10
+    ]
+  },
+  {
+    "id": 201,
+    "role": "student",
+    "firstName": "Юлія",
+    "lastName": "Клименко",
+    "email": "iuliia.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 488 11-53",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      12
+    ]
+  },
+  {
+    "id": 202,
+    "role": "student",
+    "firstName": "Яна",
+    "lastName": "Поліщук",
+    "email": "iana.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 161 50-85",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      10
+    ]
+  },
+  {
+    "id": 203,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Приходько",
+    "email": "svitlana.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 342 33-15",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17
+    ]
+  },
+  {
+    "id": 204,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Приходько",
+    "email": "tymur.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 461 51-14",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      102,
+      15
+    ]
+  },
+  {
+    "id": 205,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Панченко",
+    "email": "maryna.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 837 34-83",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      97
+    ]
+  },
+  {
+    "id": 206,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Пономаренко",
+    "email": "tymur.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 729 19-44",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      100
+    ]
+  },
+  {
+    "id": 207,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Сидоренко",
+    "email": "roman.sydorenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 159 76-32",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      11,
+      101
+    ]
+  },
+  {
+    "id": 208,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Тимошенко",
+    "email": "iurii.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 727 93-91",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      10
+    ]
+  },
+  {
+    "id": 209,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Шевченко",
+    "email": "liliia.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 659 86-67",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      12
+    ]
+  },
+  {
+    "id": 210,
+    "role": "student",
+    "firstName": "Віталій",
+    "lastName": "Костюк",
+    "email": "vitalii.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 598 76-11",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      98,
+      11
+    ]
+  },
+  {
+    "id": 211,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Бондаренко",
+    "email": "nazar.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 209 20-37",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      95
+    ]
+  },
+  {
+    "id": 212,
+    "role": "student",
+    "firstName": "Вероніка",
+    "lastName": "Кравченко",
+    "email": "veronika.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 641 33-33",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17,
+      95
+    ]
+  },
+  {
+    "id": 213,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Коваленко",
+    "email": "ostap.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 608 53-86",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      95
+    ]
+  },
+  {
+    "id": 214,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Гаврилюк",
+    "email": "iaroslav.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 977 91-49",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      96,
+      12
+    ]
+  },
+  {
+    "id": 215,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Тимошенко",
+    "email": "ievhen.tymoshenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 603 32-23",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      97
+    ]
+  },
+  {
+    "id": 216,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Тимошенко",
+    "email": "bohdana.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 452 28-96",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      14,
+      103
+    ]
+  },
+  {
+    "id": 217,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Ткаченко",
+    "email": "liliia.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 922 67-61",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      101
+    ]
+  },
+  {
+    "id": 218,
+    "role": "student",
+    "firstName": "Олег",
+    "lastName": "Даниленко",
+    "email": "oleh.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 509 64-15",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      13
+    ]
+  },
+  {
+    "id": 219,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Литвиненко",
+    "email": "ihor.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 273 78-80",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      12,
+      95
+    ]
+  },
+  {
+    "id": 220,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Кравченко",
+    "email": "iryna.kravchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 289 96-44",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      99
+    ]
+  },
+  {
+    "id": 221,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Бондаренко",
+    "email": "dmytro.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 604 24-68",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      100,
+      12
+    ]
+  },
+  {
+    "id": 222,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Гриценко",
+    "email": "ihor.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 116 32-31",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      14
+    ]
+  },
+  {
+    "id": 223,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Костюк",
+    "email": "tetiana.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 320 86-76",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      15,
+      103
+    ]
+  },
+  {
+    "id": 224,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Ткачук",
+    "email": "alina.tkachuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 456 11-65",
+    "departmentId": 2,
+    "streamId": 7,
+    "groupId": 7,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17,
+      101
+    ]
+  },
+  {
+    "id": 225,
+    "role": "student",
+    "firstName": "Богдан",
+    "lastName": "Іванченко",
+    "email": "bohdan.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 695 56-77",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      109
+    ]
+  },
+  {
+    "id": 226,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Руденко",
+    "email": "mykola.rudenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 444 20-83",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      107,
+      25
+    ]
+  },
+  {
+    "id": 227,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Бойко",
+    "email": "taras.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 805 26-74",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      105,
+      21
+    ]
+  },
+  {
+    "id": 228,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Поліщук",
+    "email": "iaroslav.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 993 52-78",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      104,
+      24
+    ]
+  },
+  {
+    "id": 229,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Шевченко",
+    "email": "roman.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 335 64-27",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      111,
+      25
+    ]
+  },
+  {
+    "id": 230,
+    "role": "student",
+    "firstName": "Микита",
+    "lastName": "Руденко",
+    "email": "mykyta.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 146 54-25",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      105,
+      23
+    ]
+  },
+  {
+    "id": 231,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Клименко",
+    "email": "olha.klymenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 601 65-62",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      19
+    ]
+  },
+  {
+    "id": 232,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Захарченко",
+    "email": "anna.zakharchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 474 16-93",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      110
+    ]
+  },
+  {
+    "id": 233,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Захарчук",
+    "email": "solomiia.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 465 45-88",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      111
+    ]
+  },
+  {
+    "id": 234,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Гончаренко",
+    "email": "artem.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 856 78-63",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      20,
+      107
+    ]
+  },
+  {
+    "id": 235,
+    "role": "student",
+    "firstName": "Андрій",
+    "lastName": "Василенко",
+    "email": "andrii.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 639 29-21",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      18,
+      108
+    ]
+  },
+  {
+    "id": 236,
+    "role": "student",
+    "firstName": "Руслан",
+    "lastName": "Бондаренко",
+    "email": "ruslan.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 295 86-89",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      23,
+      107
+    ]
+  },
+  {
+    "id": 237,
+    "role": "student",
+    "firstName": "Галина",
+    "lastName": "Ткачук",
+    "email": "halyna.tkachuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 456 84-64",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      111
+    ]
+  },
+  {
+    "id": 238,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Клименко",
+    "email": "alina.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 668 68-91",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      104,
+      22
+    ]
+  },
+  {
+    "id": 239,
+    "role": "student",
+    "firstName": "Софія",
+    "lastName": "Тимошенко",
+    "email": "sofiia.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 662 57-49",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      106,
+      23
+    ]
+  },
+  {
+    "id": 240,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Тимошенко",
+    "email": "svitlana.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 235 56-12",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      111
+    ]
+  },
+  {
+    "id": 241,
+    "role": "student",
+    "firstName": "Юлія",
+    "lastName": "Мельник",
+    "email": "iuliia.melnyk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 112 23-78",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      107
+    ]
+  },
+  {
+    "id": 242,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Мельничук",
+    "email": "iryna.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 114 75-99",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      106
+    ]
+  },
+  {
+    "id": 243,
+    "role": "student",
+    "firstName": "Марко",
+    "lastName": "Кравченко",
+    "email": "marko.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 350 92-70",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      111,
+      20
+    ]
+  },
+  {
+    "id": 244,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Захарченко",
+    "email": "iryna.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 105 88-40",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      108
+    ]
+  },
+  {
+    "id": 245,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Іванченко",
+    "email": "mykola.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 422 56-15",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      24,
+      111
+    ]
+  },
+  {
+    "id": 246,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Гаврилюк",
+    "email": "anna.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 504 50-71",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      104
+    ]
+  },
+  {
+    "id": 247,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Приходько",
+    "email": "myroslava.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 627 94-79",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      25,
+      108
+    ]
+  },
+  {
+    "id": 248,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Приходько",
+    "email": "myroslava.prykhodko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 376 64-96",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      107
+    ]
+  },
+  {
+    "id": 249,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Марченко",
+    "email": "nazar.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 905 49-60",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      24,
+      104
+    ]
+  },
+  {
+    "id": 250,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Мельничук",
+    "email": "tetiana.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 822 41-34",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      25
+    ]
+  },
+  {
+    "id": 251,
+    "role": "student",
+    "firstName": "Наталія",
+    "lastName": "Савченко",
+    "email": "nataliia.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 260 13-59",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      18,
+      107
+    ]
+  },
+  {
+    "id": 252,
+    "role": "student",
+    "firstName": "Данило",
+    "lastName": "Кириленко",
+    "email": "danylo.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 558 62-15",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      22
+    ]
+  },
+  {
+    "id": 253,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Литвиненко",
+    "email": "uliana.lytvynenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 900 15-55",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      109,
+      25
+    ]
+  },
+  {
+    "id": 254,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Панченко",
+    "email": "inna.panchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 545 53-46",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      109,
+      18
+    ]
+  },
+  {
+    "id": 255,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Демченко",
+    "email": "ievhen.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 114 48-64",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      107
+    ]
+  },
+  {
+    "id": 256,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Мельничук",
+    "email": "khrystyna.melnychuk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 348 63-98",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      109,
+      18
+    ]
+  },
+  {
+    "id": 257,
+    "role": "student",
+    "firstName": "Галина",
+    "lastName": "Даниленко",
+    "email": "halyna.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 517 15-29",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      19
+    ]
+  },
+  {
+    "id": 258,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Остапенко",
+    "email": "bohdana.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 599 29-38",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      22
+    ]
+  },
+  {
+    "id": 259,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Даниленко",
+    "email": "liudmyla.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 760 61-39",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      23,
+      109
+    ]
+  },
+  {
+    "id": 260,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Мельник",
+    "email": "tetiana.melnyk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 411 94-90",
+    "departmentId": 2,
+    "streamId": 8,
+    "groupId": 8,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      23
+    ]
+  },
+  {
+    "id": 261,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Григоренко",
+    "email": "valentyna.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 125 69-44",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      35
+    ]
+  },
+  {
+    "id": 262,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Тимошенко",
+    "email": "roman.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 913 13-11",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      118,
+      29
+    ]
+  },
+  {
+    "id": 263,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Захарченко",
+    "email": "liudmyla.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 164 92-73",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      113
+    ]
+  },
+  {
+    "id": 264,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Руденко",
+    "email": "iaroslav.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 371 23-62",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      116
+    ]
+  },
+  {
+    "id": 265,
+    "role": "student",
+    "firstName": "Яна",
+    "lastName": "Романюк",
+    "email": "iana.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 547 40-17",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      116
+    ]
+  },
+  {
+    "id": 266,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Мельничук",
+    "email": "iaroslav.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 470 18-27",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      26,
+      115
+    ]
+  },
+  {
+    "id": 267,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Коваленко",
+    "email": "oksana.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 166 86-65",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      34,
+      112
+    ]
+  },
+  {
+    "id": 268,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Панченко",
+    "email": "mykola.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 533 79-94",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      34,
+      112
+    ]
+  },
+  {
+    "id": 269,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Мельничук",
+    "email": "mykola.melnychuk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 853 68-39",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      32,
+      112
+    ]
+  },
+  {
+    "id": 270,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Коваленко",
+    "email": "maksym.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 455 89-37",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      29,
+      113
+    ]
+  },
+  {
+    "id": 271,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Остапенко",
+    "email": "viktoriia.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 554 25-86",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      26,
+      117
+    ]
+  },
+  {
+    "id": 272,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Пономаренко",
+    "email": "mariia.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 762 31-20",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      113,
+      27
+    ]
+  },
+  {
+    "id": 273,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Гаврилюк",
+    "email": "olena.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 778 98-23",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      118
+    ]
+  },
+  {
+    "id": 274,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Панченко",
+    "email": "alina.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 882 14-44",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      113
+    ]
+  },
+  {
+    "id": 275,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Пономаренко",
+    "email": "khrystyna.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 686 61-13",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      32,
+      116
+    ]
+  },
+  {
+    "id": 276,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Науменко",
+    "email": "iurii.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 961 28-22",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      120,
+      28
+    ]
+  },
+  {
+    "id": 277,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Руденко",
+    "email": "tymur.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 151 97-64",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      113,
+      28
+    ]
+  },
+  {
+    "id": 278,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Литвиненко",
+    "email": "khrystyna.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 828 99-87",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      35
+    ]
+  },
+  {
+    "id": 279,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Мельник",
+    "email": "bohdana.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 363 58-96",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      35,
+      114
+    ]
+  },
+  {
+    "id": 280,
+    "role": "student",
+    "firstName": "Віталій",
+    "lastName": "Ткаченко",
+    "email": "vitalii.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 754 40-71",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      118,
+      34
+    ]
+  },
+  {
+    "id": 281,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Кириленко",
+    "email": "tetiana.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 913 16-87",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      26,
+      113
+    ]
+  },
+  {
+    "id": 282,
+    "role": "student",
+    "firstName": "Руслан",
+    "lastName": "Руденко",
+    "email": "ruslan.rudenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 172 75-84",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      34,
+      113
+    ]
+  },
+  {
+    "id": 283,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Гончаренко",
+    "email": "roman.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 895 74-50",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      34,
+      118
+    ]
+  },
+  {
+    "id": 284,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Ткаченко",
+    "email": "ievhen.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 126 83-28",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      33,
+      117
+    ]
+  },
+  {
+    "id": 285,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Демченко",
+    "email": "artem.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 785 77-92",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      117,
+      34
+    ]
+  },
+  {
+    "id": 286,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Демченко",
+    "email": "maryna.demchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 804 88-18",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      27
+    ]
+  },
+  {
+    "id": 287,
+    "role": "student",
+    "firstName": "Софія",
+    "lastName": "Ткачук",
+    "email": "sofiia.tkachuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 969 74-47",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      33
+    ]
+  },
+  {
+    "id": 288,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Даниленко",
+    "email": "dmytro.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 572 59-65",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      33
+    ]
+  },
+  {
+    "id": 289,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Григоренко",
+    "email": "solomiia.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 670 81-40",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      26
+    ]
+  },
+  {
+    "id": 290,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Романюк",
+    "email": "iurii.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 118 78-80",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      119
+    ]
+  },
+  {
+    "id": 291,
+    "role": "student",
+    "firstName": "Галина",
+    "lastName": "Кириленко",
+    "email": "halyna.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 539 14-50",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      29,
+      117
+    ]
+  },
+  {
+    "id": 292,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Онищенко",
+    "email": "liliia.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 754 86-37",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      119,
+      35
+    ]
+  },
+  {
+    "id": 293,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Гончаренко",
+    "email": "tetiana.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 350 86-33",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      29,
+      117
+    ]
+  },
+  {
+    "id": 294,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Панченко",
+    "email": "valentyn.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 471 49-78",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      31
+    ]
+  },
+  {
+    "id": 295,
+    "role": "student",
+    "firstName": "Сергій",
+    "lastName": "Ткаченко",
+    "email": "serhii.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 629 86-70",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      33,
+      113
+    ]
+  },
+  {
+    "id": 296,
+    "role": "student",
+    "firstName": "Павло",
+    "lastName": "Поліщук",
+    "email": "pavlo.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 459 88-80",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      117
+    ]
+  },
+  {
+    "id": 297,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Даниленко",
+    "email": "bohdana.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 177 12-68",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      28
+    ]
+  },
+  {
+    "id": 298,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Тимошенко",
+    "email": "valentyna.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 124 49-97",
+    "departmentId": 2,
+    "streamId": 9,
+    "groupId": 9,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      115,
+      27
+    ]
+  },
+  {
+    "id": 299,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Шевченко",
+    "email": "liudmyla.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 684 57-43",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      127,
+      40
+    ]
+  },
+  {
+    "id": 300,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Сидоренко",
+    "email": "svitlana.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 300 13-57",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      122
+    ]
+  },
+  {
+    "id": 301,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Сидоренко",
+    "email": "ievhen.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 412 85-60",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      127
+    ]
+  },
+  {
+    "id": 302,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Руденко",
+    "email": "mariia.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 330 59-30",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      42
+    ]
+  },
+  {
+    "id": 303,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Марченко",
+    "email": "kateryna.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 887 58-93",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      128
+    ]
+  },
+  {
+    "id": 304,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Коваленко",
+    "email": "myroslava.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 833 12-54",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      127
+    ]
+  },
+  {
+    "id": 305,
+    "role": "student",
+    "firstName": "Данило",
+    "lastName": "Кириленко",
+    "email": "danylo.kyrylenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 839 38-50",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      44,
+      122
+    ]
+  },
+  {
+    "id": 306,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Клименко",
+    "email": "kateryna.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 963 32-73",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      40
+    ]
+  },
+  {
+    "id": 307,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Ткаченко",
+    "email": "liudmyla.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 916 41-71",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      36,
+      126
+    ]
+  },
+  {
+    "id": 308,
+    "role": "student",
+    "firstName": "Сергій",
+    "lastName": "Дяченко",
+    "email": "serhii.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 667 98-86",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      129
+    ]
+  },
+  {
+    "id": 309,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Марченко",
+    "email": "zakhar.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 769 63-26",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      126
+    ]
+  },
+  {
+    "id": 310,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Даниленко",
+    "email": "myroslava.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 412 71-86",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      37
+    ]
+  },
+  {
+    "id": 311,
+    "role": "student",
+    "firstName": "Зоряна",
+    "lastName": "Литвиненко",
+    "email": "zoriana.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 842 41-86",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      36
+    ]
+  },
+  {
+    "id": 312,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Кириленко",
+    "email": "ihor.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 468 38-97",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      41
+    ]
+  },
+  {
+    "id": 313,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Мельничук",
+    "email": "anna.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 241 40-63",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      122
+    ]
+  },
+  {
+    "id": 314,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Дяченко",
+    "email": "liliia.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 713 65-18",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      126,
+      40
+    ]
+  },
+  {
+    "id": 315,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Онищенко",
+    "email": "viktoriia.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 116 80-78",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      129
+    ]
+  },
+  {
+    "id": 316,
+    "role": "student",
+    "firstName": "Вероніка",
+    "lastName": "Григоренко",
+    "email": "veronika.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 958 93-95",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      127,
+      42
+    ]
+  },
+  {
+    "id": 317,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Мельник",
+    "email": "liudmyla.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 456 46-14",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      125,
+      41
+    ]
+  },
+  {
+    "id": 318,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Бондаренко",
+    "email": "artem.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 186 90-59",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      128
+    ]
+  },
+  {
+    "id": 319,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Мельник",
+    "email": "kyrylo.melnyk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 907 10-89",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      36,
+      121
+    ]
+  },
+  {
+    "id": 320,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Іванченко",
+    "email": "ostap.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 338 86-63",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      40
+    ]
+  },
+  {
+    "id": 321,
+    "role": "student",
+    "firstName": "Олександр",
+    "lastName": "Дяченко",
+    "email": "oleksandr.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 544 59-75",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      40,
+      122
+    ]
+  },
+  {
+    "id": 322,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Дяченко",
+    "email": "taras.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 581 48-76",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      42,
+      124
+    ]
+  },
+  {
+    "id": 323,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Тимошенко",
+    "email": "iaroslav.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 566 28-69",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      125,
+      43
+    ]
+  },
+  {
+    "id": 324,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Мельник",
+    "email": "iurii.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 335 70-42",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      42
+    ]
+  },
+  {
+    "id": 325,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Мельник",
+    "email": "maryna.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 839 94-53",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      122
+    ]
+  },
+  {
+    "id": 326,
+    "role": "student",
+    "firstName": "Микита",
+    "lastName": "Коваленко",
+    "email": "mykyta.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 938 27-31",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      41
+    ]
+  },
+  {
+    "id": 327,
+    "role": "student",
+    "firstName": "Ігор",
+    "lastName": "Савченко",
+    "email": "ihor.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 714 49-37",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      126
+    ]
+  },
+  {
+    "id": 328,
+    "role": "student",
+    "firstName": "Руслан",
+    "lastName": "Коваленко",
+    "email": "ruslan.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 498 93-77",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      37,
+      128
+    ]
+  },
+  {
+    "id": 329,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Приходько",
+    "email": "tymur.prykhodko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 425 76-59",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      43
+    ]
+  },
+  {
+    "id": 330,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Мельник",
+    "email": "liliia.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 706 43-44",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      128
+    ]
+  },
+  {
+    "id": 331,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Приходько",
+    "email": "valentyn.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 154 98-67",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      40
+    ]
+  },
+  {
+    "id": 332,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Швачко",
+    "email": "vladyslav.shvachko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 196 10-75",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      128,
+      37
+    ]
+  },
+  {
+    "id": 333,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Гончаренко",
+    "email": "maksym.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 960 88-59",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      38
+    ]
+  },
+  {
+    "id": 334,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Захарчук",
+    "email": "iaroslav.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 542 96-18",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      124,
+      39
+    ]
+  },
+  {
+    "id": 335,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Захарченко",
+    "email": "maksym.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 703 13-84",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      126
+    ]
+  },
+  {
+    "id": 336,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Приходько",
+    "email": "vladyslav.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 789 52-78",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      127
+    ]
+  },
+  {
+    "id": 337,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Даниленко",
+    "email": "liliia.danylenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 101 63-85",
+    "departmentId": 2,
+    "streamId": 10,
+    "groupId": 10,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      37,
+      126
+    ]
+  },
+  {
+    "id": 338,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Савченко",
+    "email": "dmytro.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 521 60-16",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      1
+    ]
+  },
+  {
+    "id": 339,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Коваленко",
+    "email": "alina.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 635 31-64",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      52,
+      7
+    ]
+  },
+  {
+    "id": 340,
+    "role": "student",
+    "firstName": "Андрій",
+    "lastName": "Савченко",
+    "email": "andrii.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 306 44-74",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      51,
+      8
+    ]
+  },
+  {
+    "id": 341,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Захарченко",
+    "email": "ievhen.zakharchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 384 22-63",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      47,
+      7
+    ]
+  },
+  {
+    "id": 342,
+    "role": "student",
+    "firstName": "Андрій",
+    "lastName": "Клименко",
+    "email": "andrii.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 274 76-54",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      3,
+      48
+    ]
+  },
+  {
+    "id": 343,
+    "role": "student",
+    "firstName": "Олександр",
+    "lastName": "Савченко",
+    "email": "oleksandr.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 830 31-15",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      5,
+      49
+    ]
+  },
+  {
+    "id": 344,
+    "role": "student",
+    "firstName": "Олег",
+    "lastName": "Шевченко",
+    "email": "oleh.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 748 84-19",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      8
+    ]
+  },
+  {
+    "id": 345,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Мельничук",
+    "email": "ivan.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 411 94-80",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      49
+    ]
+  },
+  {
+    "id": 346,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Дяченко",
+    "email": "alina.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 969 93-49",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      2,
+      50
+    ]
+  },
+  {
+    "id": 347,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Демченко",
+    "email": "tymur.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 103 58-18",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      51,
+      3
+    ]
+  },
+  {
+    "id": 348,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Руденко",
+    "email": "viktoriia.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 263 81-86",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      46
+    ]
+  },
+  {
+    "id": 349,
+    "role": "student",
+    "firstName": "Людмила",
+    "lastName": "Приходько",
+    "email": "liudmyla.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 350 53-46",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      6,
+      49
+    ]
+  },
+  {
+    "id": 350,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Литвиненко",
+    "email": "anna.lytvynenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 355 28-26",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      52,
+      1
+    ]
+  },
+  {
+    "id": 351,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Ткаченко",
+    "email": "artem.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 574 17-65",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      3,
+      46
+    ]
+  },
+  {
+    "id": 352,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Коваленко",
+    "email": "oksana.kovalenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 309 34-75",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      3,
+      52
+    ]
+  },
+  {
+    "id": 353,
+    "role": "student",
+    "firstName": "Данило",
+    "lastName": "Пономаренко",
+    "email": "danylo.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 887 78-15",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      45,
+      6
+    ]
+  },
+  {
+    "id": 354,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Мельничук",
+    "email": "dmytro.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 259 19-49",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      48
+    ]
+  },
+  {
+    "id": 355,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Кириленко",
+    "email": "ostap.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 121 84-65",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      53
+    ]
+  },
+  {
+    "id": 356,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Шевченко",
+    "email": "diana.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 777 91-18",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      5,
+      46
+    ]
+  },
+  {
+    "id": 357,
+    "role": "student",
+    "firstName": "Олег",
+    "lastName": "Демченко",
+    "email": "oleh.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 909 41-26",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      52
+    ]
+  },
+  {
+    "id": 358,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Даниленко",
+    "email": "anna.danylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 193 92-93",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      45
+    ]
+  },
+  {
+    "id": 359,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Сидоренко",
+    "email": "solomiia.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 801 66-49",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      2
+    ]
+  },
+  {
+    "id": 360,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Мельничук",
+    "email": "ostap.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 289 30-22",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      2
+    ]
+  },
+  {
+    "id": 361,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Демченко",
+    "email": "dmytro.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 936 23-77",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      6,
+      52
+    ]
+  },
+  {
+    "id": 362,
+    "role": "student",
+    "firstName": "Олег",
+    "lastName": "Науменко",
+    "email": "oleh.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 815 37-25",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      48,
+      8
+    ]
+  },
+  {
+    "id": 363,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Захарченко",
+    "email": "valentyn.zakharchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 977 37-44",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      4
+    ]
+  },
+  {
+    "id": 364,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Бондаренко",
+    "email": "kyrylo.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 391 71-46",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      5
+    ]
+  },
+  {
+    "id": 365,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Клименко",
+    "email": "iryna.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 105 81-81",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      5,
+      45
+    ]
+  },
+  {
+    "id": 366,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Гончаренко",
+    "email": "svitlana.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 769 45-97",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      45
+    ]
+  },
+  {
+    "id": 367,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Гаврилюк",
+    "email": "diana.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 307 64-51",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      51
+    ]
+  },
+  {
+    "id": 368,
+    "role": "student",
+    "firstName": "Руслан",
+    "lastName": "Приходько",
+    "email": "ruslan.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 625 80-65",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      9,
+      47
+    ]
+  },
+  {
+    "id": 369,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Романюк",
+    "email": "solomiia.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 610 60-87",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      53,
+      8
+    ]
+  },
+  {
+    "id": 370,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Захарченко",
+    "email": "iaroslav.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 245 29-65",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      5,
+      53
+    ]
+  },
+  {
+    "id": 371,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Гаврилюк",
+    "email": "kyrylo.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 570 91-42",
+    "departmentId": 3,
+    "streamId": 11,
+    "groupId": 11,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      48
+    ]
+  },
+  {
+    "id": 372,
+    "role": "student",
+    "firstName": "Зоряна",
+    "lastName": "Сидоренко",
+    "email": "zoriana.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 358 75-78",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      55,
+      16
+    ]
+  },
+  {
+    "id": 373,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Сидоренко",
+    "email": "maksym.sydorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 535 28-99",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      59
+    ]
+  },
+  {
+    "id": 374,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Приходько",
+    "email": "tymur.prykhodko2@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 353 60-55",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      54
+    ]
+  },
+  {
+    "id": 375,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Ткачук",
+    "email": "ivan.tkachuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 309 76-78",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17
+    ]
+  },
+  {
+    "id": 376,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Дяченко",
+    "email": "tymur.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 802 20-86",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      58
+    ]
+  },
+  {
+    "id": 377,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Мельник",
+    "email": "myroslava.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 105 81-17",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17
+    ]
+  },
+  {
+    "id": 378,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Захарченко",
+    "email": "ievhen.zakharchenko2@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 289 74-52",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      56,
+      16
+    ]
+  },
+  {
+    "id": 379,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Гаврилюк",
+    "email": "taras.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 381 74-48",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      16
+    ]
+  },
+  {
+    "id": 380,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Руденко",
+    "email": "svitlana.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 550 83-77",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      16
+    ]
+  },
+  {
+    "id": 381,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Марченко",
+    "email": "kateryna.marchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 927 92-74",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      12,
+      54
+    ]
+  },
+  {
+    "id": 382,
+    "role": "student",
+    "firstName": "Євген",
+    "lastName": "Гончаренко",
+    "email": "ievhen.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 798 33-53",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17
+    ]
+  },
+  {
+    "id": 383,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Сидоренко",
+    "email": "solomiia.sydorenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 634 42-64",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      17
+    ]
+  },
+  {
+    "id": 384,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Поліщук",
+    "email": "iurii.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 756 75-87",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      54,
+      11
+    ]
+  },
+  {
+    "id": 385,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Костюк",
+    "email": "ostap.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 558 73-24",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      57,
+      11
+    ]
+  },
+  {
+    "id": 386,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Іванченко",
+    "email": "alina.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 970 85-20",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      15
+    ]
+  },
+  {
+    "id": 387,
+    "role": "student",
+    "firstName": "Анна",
+    "lastName": "Бойко",
+    "email": "anna.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 222 28-89",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      56
+    ]
+  },
+  {
+    "id": 388,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Гаврилюк",
+    "email": "viktoriia.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 953 32-53",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      12
+    ]
+  },
+  {
+    "id": 389,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Марченко",
+    "email": "taras.marchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 989 86-85",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      11,
+      56
+    ]
+  },
+  {
+    "id": 390,
+    "role": "student",
+    "firstName": "Богдан",
+    "lastName": "Гаврилюк",
+    "email": "bohdan.havryliuk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 210 52-40",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      16,
+      60
+    ]
+  },
+  {
+    "id": 391,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Пономаренко",
+    "email": "alina.ponomarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 186 74-59",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      58,
+      15
+    ]
+  },
+  {
+    "id": 392,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Науменко",
+    "email": "kyrylo.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 382 59-95",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      10,
+      58
+    ]
+  },
+  {
+    "id": 393,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Ткаченко",
+    "email": "valentyna.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 146 89-78",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      54,
+      15
+    ]
+  },
+  {
+    "id": 394,
+    "role": "student",
+    "firstName": "Яна",
+    "lastName": "Захарчук",
+    "email": "iana.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 710 33-81",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      16,
+      60
+    ]
+  },
+  {
+    "id": 395,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Іванченко",
+    "email": "iryna.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 328 50-89",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      59,
+      12
+    ]
+  },
+  {
+    "id": 396,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Приходько",
+    "email": "mariia.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 294 39-20",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      14
+    ]
+  },
+  {
+    "id": 397,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Марченко",
+    "email": "alina.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 263 47-15",
+    "departmentId": 3,
+    "streamId": 12,
+    "groupId": 12,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      13
+    ]
+  },
+  {
+    "id": 398,
+    "role": "student",
+    "firstName": "Галина",
+    "lastName": "Клименко",
+    "email": "halyna.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 441 74-35",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      65
+    ]
+  },
+  {
+    "id": 399,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Мельник",
+    "email": "olha.melnyk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 402 56-31",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      24,
+      68
+    ]
+  },
+  {
+    "id": 400,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Приходько",
+    "email": "mariia.prykhodko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 934 75-31",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      22,
+      68
+    ]
+  },
+  {
+    "id": 401,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Онищенко",
+    "email": "maryna.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 166 49-62",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      19,
+      64
+    ]
+  },
+  {
+    "id": 402,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Захарчук",
+    "email": "bohdana.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 120 19-48",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      68
+    ]
+  },
+  {
+    "id": 403,
+    "role": "student",
+    "firstName": "Остап",
+    "lastName": "Кириленко",
+    "email": "ostap.kyrylenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 829 72-66",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      22,
+      64
+    ]
+  },
+  {
+    "id": 404,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Коваленко",
+    "email": "vladyslav.kovalenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 497 59-43",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      22
+    ]
+  },
+  {
+    "id": 405,
+    "role": "student",
+    "firstName": "Юлія",
+    "lastName": "Бондаренко",
+    "email": "iuliia.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 805 62-92",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      66,
+      20
+    ]
+  },
+  {
+    "id": 406,
+    "role": "student",
+    "firstName": "Зоряна",
+    "lastName": "Марченко",
+    "email": "zoriana.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 110 24-87",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      20,
+      62
+    ]
+  },
+  {
+    "id": 407,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Гончаренко",
+    "email": "zakhar.honcharenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 519 57-14",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      24,
+      62
+    ]
+  },
+  {
+    "id": 408,
+    "role": "student",
+    "firstName": "Олександр",
+    "lastName": "Панченко",
+    "email": "oleksandr.panchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 349 88-91",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      23,
+      66
+    ]
+  },
+  {
+    "id": 409,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Марченко",
+    "email": "ivan.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 811 65-41",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      18
+    ]
+  },
+  {
+    "id": 410,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Іванченко",
+    "email": "olena.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 574 24-35",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      18,
+      62
+    ]
+  },
+  {
+    "id": 411,
+    "role": "student",
+    "firstName": "Степан",
+    "lastName": "Гриценко",
+    "email": "stepan.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 703 95-45",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      20
+    ]
+  },
+  {
+    "id": 412,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Гаврилюк",
+    "email": "myroslava.havryliuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 957 84-50",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      19,
+      68
+    ]
+  },
+  {
+    "id": 413,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Ткаченко",
+    "email": "inna.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 574 57-27",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      62
+    ]
+  },
+  {
+    "id": 414,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Руденко",
+    "email": "olha.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 282 18-11",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      69,
+      24
+    ]
+  },
+  {
+    "id": 415,
+    "role": "student",
+    "firstName": "Валентина",
+    "lastName": "Романюк",
+    "email": "valentyna.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 705 94-60",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      18
+    ]
+  },
+  {
+    "id": 416,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Клименко",
+    "email": "inna.klymenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 399 85-22",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      25,
+      65
+    ]
+  },
+  {
+    "id": 417,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Іванченко",
+    "email": "liliia.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 657 19-75",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      19
+    ]
+  },
+  {
+    "id": 418,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Романюк",
+    "email": "roman.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 432 82-80",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      62
+    ]
+  },
+  {
+    "id": 419,
+    "role": "student",
+    "firstName": "Наталія",
+    "lastName": "Костюк",
+    "email": "nataliia.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 172 43-36",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      22,
+      64
+    ]
+  },
+  {
+    "id": 420,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Захарченко",
+    "email": "khrystyna.zakharchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 202 81-17",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      69,
+      22
+    ]
+  },
+  {
+    "id": 421,
+    "role": "student",
+    "firstName": "Микола",
+    "lastName": "Науменко",
+    "email": "mykola.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 682 33-16",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      68,
+      23
+    ]
+  },
+  {
+    "id": 422,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Мельник",
+    "email": "myroslava.melnyk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 682 79-64",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      69
+    ]
+  },
+  {
+    "id": 423,
+    "role": "student",
+    "firstName": "Ольга",
+    "lastName": "Коваленко",
+    "email": "olha.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 955 55-35",
+    "departmentId": 3,
+    "streamId": 13,
+    "groupId": 13,
+    "subgroup": null,
+    "electiveSubjectIds": [
+      62
+    ]
+  },
+  {
+    "id": 424,
+    "role": "student",
+    "firstName": "Дарина",
+    "lastName": "Демченко",
+    "email": "daryna.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 842 25-63",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      71
+    ]
+  },
+  {
+    "id": 425,
+    "role": "student",
+    "firstName": "Андрій",
+    "lastName": "Остапенко",
+    "email": "andrii.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 388 99-86",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      30,
+      71
+    ]
+  },
+  {
+    "id": 426,
+    "role": "student",
+    "firstName": "Аліна",
+    "lastName": "Клименко",
+    "email": "alina.klymenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 309 81-52",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      74,
+      35
+    ]
+  },
+  {
+    "id": 427,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Тимошенко",
+    "email": "kateryna.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 435 69-35",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      28,
+      71
+    ]
+  },
+  {
+    "id": 428,
+    "role": "student",
+    "firstName": "Валентин",
+    "lastName": "Кравченко",
+    "email": "valentyn.kravchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 655 35-76",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      28,
+      71
+    ]
+  },
+  {
+    "id": 429,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Демченко",
+    "email": "svitlana.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 887 25-60",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      33,
+      76
+    ]
+  },
+  {
+    "id": 430,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Гриценко",
+    "email": "uliana.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 248 26-30",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      73,
+      28
+    ]
+  },
+  {
+    "id": 431,
+    "role": "student",
+    "firstName": "Кирило",
+    "lastName": "Дяченко",
+    "email": "kyrylo.diachenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 865 19-17",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      75
+    ]
+  },
+  {
+    "id": 432,
+    "role": "student",
+    "firstName": "Назар",
+    "lastName": "Ткаченко",
+    "email": "nazar.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 370 61-79",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      74,
+      33
+    ]
+  },
+  {
+    "id": 433,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Василенко",
+    "email": "tetiana.vasylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 544 11-36",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      35,
+      73
+    ]
+  },
+  {
+    "id": 434,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Шевченко",
+    "email": "viktoriia.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 805 43-68",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      75
+    ]
+  },
+  {
+    "id": 435,
+    "role": "student",
+    "firstName": "Наталія",
+    "lastName": "Дяченко",
+    "email": "nataliia.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 442 16-34",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      70
+    ]
+  },
+  {
+    "id": 436,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Коваленко",
+    "email": "oksana.kovalenko2@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 309 77-60",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      70
+    ]
+  },
+  {
+    "id": 437,
+    "role": "student",
+    "firstName": "Вікторія",
+    "lastName": "Демченко",
+    "email": "viktoriia.demchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 838 52-43",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      75,
+      30
+    ]
+  },
+  {
+    "id": 438,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Ткаченко",
+    "email": "dmytro.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 780 53-45",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      32,
+      71
+    ]
+  },
+  {
+    "id": 439,
+    "role": "student",
+    "firstName": "Тетяна",
+    "lastName": "Руденко",
+    "email": "tetiana.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 835 16-33",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      28,
+      77
+    ]
+  },
+  {
+    "id": 440,
+    "role": "student",
+    "firstName": "Марина",
+    "lastName": "Литвиненко",
+    "email": "maryna.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 961 98-59",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      72,
+      28
+    ]
+  },
+  {
+    "id": 441,
+    "role": "student",
+    "firstName": "Марія",
+    "lastName": "Поліщук",
+    "email": "mariia.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 671 82-36",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      74,
+      35
+    ]
+  },
+  {
+    "id": 442,
+    "role": "student",
+    "firstName": "Ірина",
+    "lastName": "Тимошенко",
+    "email": "iryna.tymoshenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 827 38-97",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      70
+    ]
+  },
+  {
+    "id": 443,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Мельничук",
+    "email": "vladyslav.melnychuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 414 81-70",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      33,
+      77
+    ]
+  },
+  {
+    "id": 444,
+    "role": "student",
+    "firstName": "Роман",
+    "lastName": "Сидоренко",
+    "email": "roman.sydorenko2@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 122 67-52",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      76,
+      35
+    ]
+  },
+  {
+    "id": 445,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Гриценко",
+    "email": "maksym.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 487 23-25",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      70
+    ]
+  },
+  {
+    "id": 446,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Литвиненко",
+    "email": "svitlana.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 554 36-16",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      31,
+      72
+    ]
+  },
+  {
+    "id": 447,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Іванченко",
+    "email": "bohdana.ivanchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 956 26-53",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      29
+    ]
+  },
+  {
+    "id": 448,
+    "role": "student",
+    "firstName": "Олег",
+    "lastName": "Руденко",
+    "email": "oleh.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 395 48-62",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      75,
+      29
+    ]
+  },
+  {
+    "id": 449,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Науменко",
+    "email": "zakhar.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 637 24-85",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      33
+    ]
+  },
+  {
+    "id": 450,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Приходько",
+    "email": "khrystyna.prykhodko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 520 26-51",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      70,
+      26
+    ]
+  },
+  {
+    "id": 451,
+    "role": "student",
+    "firstName": "Артем",
+    "lastName": "Литвиненко",
+    "email": "artem.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 559 84-65",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      27
+    ]
+  },
+  {
+    "id": 452,
+    "role": "student",
+    "firstName": "Мирослава",
+    "lastName": "Поліщук",
+    "email": "myroslava.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 298 34-54",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      76
+    ]
+  },
+  {
+    "id": 453,
+    "role": "student",
+    "firstName": "Владислав",
+    "lastName": "Руденко",
+    "email": "vladyslav.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 477 56-63",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      71
+    ]
+  },
+  {
+    "id": 454,
+    "role": "student",
+    "firstName": "Софія",
+    "lastName": "Григоренко",
+    "email": "sofiia.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 642 88-79",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      30,
+      75
+    ]
+  },
+  {
+    "id": 455,
+    "role": "student",
+    "firstName": "Христина",
+    "lastName": "Остапенко",
+    "email": "khrystyna.ostapenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 968 83-99",
+    "departmentId": 3,
+    "streamId": 14,
+    "groupId": 14,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      72,
+      34
+    ]
+  },
+  {
+    "id": 456,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Гаврилюк",
+    "email": "taras.havryliuk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 330 33-28",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      36,
+      79
+    ]
+  },
+  {
+    "id": 457,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Марченко",
+    "email": "svitlana.marchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 810 96-52",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      81,
+      41
+    ]
+  },
+  {
+    "id": 458,
+    "role": "student",
+    "firstName": "Вероніка",
+    "lastName": "Приходько",
+    "email": "veronika.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 547 95-74",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      81,
+      43
+    ]
+  },
+  {
+    "id": 459,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Ткаченко",
+    "email": "ivan.tkachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 175 47-76",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      82,
+      39
+    ]
+  },
+  {
+    "id": 460,
+    "role": "student",
+    "firstName": "Галина",
+    "lastName": "Дяченко",
+    "email": "halyna.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 983 80-63",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      83,
+      38
+    ]
+  },
+  {
+    "id": 461,
+    "role": "student",
+    "firstName": "Іван",
+    "lastName": "Бондаренко",
+    "email": "ivan.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 378 40-96",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      79
+    ]
+  },
+  {
+    "id": 462,
+    "role": "student",
+    "firstName": "Юлія",
+    "lastName": "Костюк",
+    "email": "iuliia.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 253 40-34",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      85
+    ]
+  },
+  {
+    "id": 463,
+    "role": "student",
+    "firstName": "Катерина",
+    "lastName": "Дяченко",
+    "email": "kateryna.diachenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 456 78-71",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      42,
+      80
+    ]
+  },
+  {
+    "id": 464,
+    "role": "student",
+    "firstName": "Олена",
+    "lastName": "Руденко",
+    "email": "olena.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 325 50-68",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      39
+    ]
+  },
+  {
+    "id": 465,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Григоренко",
+    "email": "bohdana.hryhorenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 345 45-28",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      37
+    ]
+  },
+  {
+    "id": 466,
+    "role": "student",
+    "firstName": "Дмитро",
+    "lastName": "Литвиненко",
+    "email": "dmytro.lytvynenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 612 68-72",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      43
+    ]
+  },
+  {
+    "id": 467,
+    "role": "student",
+    "firstName": "Соломія",
+    "lastName": "Григоренко",
+    "email": "solomiia.hryhorenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 461 22-48",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      78,
+      37
+    ]
+  },
+  {
+    "id": 468,
+    "role": "student",
+    "firstName": "Микита",
+    "lastName": "Шевченко",
+    "email": "mykyta.shevchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 861 16-24",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      82
+    ]
+  },
+  {
+    "id": 469,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Романюк",
+    "email": "inna.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 610 72-26",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      37
+    ]
+  },
+  {
+    "id": 470,
+    "role": "student",
+    "firstName": "Максим",
+    "lastName": "Поліщук",
+    "email": "maksym.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 674 96-31",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      82,
+      40
+    ]
+  },
+  {
+    "id": 471,
+    "role": "student",
+    "firstName": "Тарас",
+    "lastName": "Марченко",
+    "email": "taras.marchenko2@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 918 31-43",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      84
+    ]
+  },
+  {
+    "id": 472,
+    "role": "student",
+    "firstName": "Зоряна",
+    "lastName": "Романюк",
+    "email": "zoriana.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 606 10-50",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      39,
+      83
+    ]
+  },
+  {
+    "id": 473,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Бондаренко",
+    "email": "iurii.bondarenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 404 28-32",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      40,
+      78
+    ]
+  },
+  {
+    "id": 474,
+    "role": "student",
+    "firstName": "Захар",
+    "lastName": "Романюк",
+    "email": "zakhar.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 358 82-46",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      79
+    ]
+  },
+  {
+    "id": 475,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Бойко",
+    "email": "oksana.boiko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 180 93-46",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      38
+    ]
+  },
+  {
+    "id": 476,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Захарчук",
+    "email": "oksana.zakharchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 281 84-49",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      39
+    ]
+  },
+  {
+    "id": 477,
+    "role": "student",
+    "firstName": "Світлана",
+    "lastName": "Тимошенко",
+    "email": "svitlana.tymoshenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 966 97-25",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      85,
+      43
+    ]
+  },
+  {
+    "id": 478,
+    "role": "student",
+    "firstName": "Тимур",
+    "lastName": "Руденко",
+    "email": "tymur.rudenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 666 97-80",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      44
+    ]
+  },
+  {
+    "id": 479,
+    "role": "student",
+    "firstName": "Дарина",
+    "lastName": "Поліщук",
+    "email": "daryna.polishchuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 796 60-71",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      79,
+      39
+    ]
+  },
+  {
+    "id": 480,
+    "role": "student",
+    "firstName": "Микита",
+    "lastName": "Кириленко",
+    "email": "mykyta.kyrylenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 098 186 61-91",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      41
+    ]
+  },
+  {
+    "id": 481,
+    "role": "student",
+    "firstName": "Діана",
+    "lastName": "Онищенко",
+    "email": "diana.onyshchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 568 48-24",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      44
+    ]
+  },
+  {
+    "id": 482,
+    "role": "student",
+    "firstName": "Андрій",
+    "lastName": "Романюк",
+    "email": "andrii.romaniuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 354 79-10",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      36
+    ]
+  },
+  {
+    "id": 483,
+    "role": "student",
+    "firstName": "Зоряна",
+    "lastName": "Кравченко",
+    "email": "zoriana.kravchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 210 56-27",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      84,
+      39
+    ]
+  },
+  {
+    "id": 484,
+    "role": "student",
+    "firstName": "Лілія",
+    "lastName": "Гриценко",
+    "email": "liliia.hrytsenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 096 939 44-83",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      39,
+      79
+    ]
+  },
+  {
+    "id": 485,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Костюк",
+    "email": "uliana.kostiuk@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 797 77-11",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      40
+    ]
+  },
+  {
+    "id": 486,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Приходько",
+    "email": "uliana.prykhodko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 109 99-28",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      80,
+      41
+    ]
+  },
+  {
+    "id": 487,
+    "role": "student",
+    "firstName": "Інна",
+    "lastName": "Демченко",
+    "email": "inna.demchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 067 274 85-61",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      83
+    ]
+  },
+  {
+    "id": 488,
+    "role": "student",
+    "firstName": "Юрій",
+    "lastName": "Поліщук",
+    "email": "iurii.polishchuk1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 063 608 13-94",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      85
+    ]
+  },
+  {
+    "id": 489,
+    "role": "student",
+    "firstName": "Ярослав",
+    "lastName": "Захарченко",
+    "email": "iaroslav.zakharchenko1@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 558 38-38",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      39,
+      79
+    ]
+  },
+  {
+    "id": 490,
+    "role": "student",
+    "firstName": "Уляна",
+    "lastName": "Науменко",
+    "email": "uliana.naumenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 097 259 63-97",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      84,
+      39
+    ]
+  },
+  {
+    "id": 491,
+    "role": "student",
+    "firstName": "Оксана",
+    "lastName": "Савченко",
+    "email": "oksana.savchenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 068 996 22-91",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      83
+    ]
+  },
+  {
+    "id": 492,
+    "role": "student",
+    "firstName": "Софія",
+    "lastName": "Руденко",
+    "email": "sofiia.rudenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 618 31-82",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 1,
+    "electiveSubjectIds": [
+      78,
+      38
+    ]
+  },
+  {
+    "id": 493,
+    "role": "student",
+    "firstName": "Богдана",
+    "lastName": "Коваленко",
+    "email": "bohdana.kovalenko@students.pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 099 399 26-89",
+    "departmentId": 3,
+    "streamId": 15,
+    "groupId": 15,
+    "subgroup": 2,
+    "electiveSubjectIds": [
+      84
+    ]
+  },
+  {
+    "id": 494,
+    "role": "admin",
+    "firstName": "Адмін",
+    "lastName": "Системи",
+    "email": "pm-admin@test.com",
+    "password": "12345admin",
+    "phone": "+380 44 000 00 00"
+  }
+]

@@ -1,0 +1,22 @@
+<app-page-header
+  [title]="'Вітаємо, ' + (student?.firstName || '')"
+  [subtitle]="department?.name || ''"
+></app-page-header>
+
+<div class="stats-grid">
+  <mat-card class="stat-card">
+    <mat-icon>school</mat-icon>
+    <div class="stat-card__value">{{ stream?.courseYear || '—' }}</div>
+    <div class="stat-card__label">Курс</div>
+  </mat-card>
+  <mat-card class="stat-card">
+    <mat-icon>groups</mat-icon>
+    <div class="stat-card__value">{{ group?.name || '—' }}</div>
+    <div class="stat-card__label">Група {{ student?.subgroup ? '(підгр. ' + student?.subgroup + ')' : '' }}</div>
+  </mat-card>
+  <mat-card class="stat-card">
+    <mat-icon>menu_book</mat-icon>
+    <div class="stat-card__value">{{ subjectCount }}</div>
+    <div class="stat-card__label">Предметів цього семестру</div>
+  </mat-card>
+</div>
