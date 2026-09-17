@@ -1,9 +1,27 @@
 .app-toolbar {
+  height: 72px;
+  background: var(--np-surface);
+  color: var(--np-navy);
+  box-shadow: 0 1px 0 var(--np-border);
+
   &__brand {
-    color: #fff;
+    color: var(--np-navy);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      background: var(--np-lime);
+      box-shadow: 6px 4px 0 -2px var(--np-navy);
+    }
   }
 
   &__spacer {
@@ -15,6 +33,10 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+  }
+
+  button {
+    color: var(--np-navy);
   }
 }
 

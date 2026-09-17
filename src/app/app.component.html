@@ -1,5 +1,5 @@
 @if (currentUser$ | async; as user) {
-  <mat-toolbar color="primary" class="app-toolbar">
+  <mat-toolbar class="app-toolbar">
     <a class="app-toolbar__brand" [routerLink]="homeLink(user.role)"
       >Інститут прикладної математики</a
     >

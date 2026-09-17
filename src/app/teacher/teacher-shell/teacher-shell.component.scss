@@ -1,17 +1,36 @@
 .shell {
-  height: calc(100vh - 104px);
+  height: calc(100vh - 112px);
 
   &__sidenav {
     width: 260px;
-    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    background: var(--np-surface);
+    border-right: 1px solid var(--np-border);
+    padding-top: 12px;
   }
 
   &__content {
     padding: 24px;
+    background: var(--np-bg);
   }
 }
 
-::ng-deep .active-link {
-  background: rgba(63, 81, 181, 0.1);
-  font-weight: 600;
+::ng-deep .shell__sidenav {
+  .mdc-list-item {
+    margin: 4px 12px;
+    border-radius: var(--np-radius-md);
+    width: auto;
+  }
+
+  .active-link {
+    background: var(--np-navy);
+    font-weight: 600;
+
+    .mdc-list-item__primary-text {
+      color: #fff;
+    }
+
+    mat-icon {
+      color: var(--np-lime);
+    }
+  }
 }

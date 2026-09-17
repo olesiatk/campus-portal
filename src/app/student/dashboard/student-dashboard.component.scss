@@ -1,34 +1,69 @@
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
 }
 
 .stat-card {
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px;
+  text-align: left;
   cursor: default;
+  box-shadow: none !important;
 
   mat-icon {
-    font-size: 32px;
-    width: 32px;
-    height: 32px;
-    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
   }
 
   &__value {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
-    margin-top: 8px;
   }
 
   &__label {
-    color: rgba(0, 0, 0, 0.6);
-    margin-top: 4px;
+    opacity: 0.75;
+    font-size: 13px;
+  }
+
+  &:nth-child(5n + 1) {
+    background: #fdf1cf;
+    color: #7a5b00;
+  }
+  &:nth-child(5n + 2) {
+    background: #fbe2e4;
+    color: #8c2f34;
+  }
+  &:nth-child(5n + 3) {
+    background: #e3e8f5;
+    color: #2c3a5e;
+  }
+  &:nth-child(5n + 4) {
+    background: #e1f3e5;
+    color: #215732;
+  }
+  &:nth-child(5n + 5) {
+    background: #e8e1f7;
+    color: #4a2f8c;
   }
 
   &--highlight {
     cursor: pointer;
-    background: #fff3e0;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--np-shadow) !important;
+    }
   }
 }

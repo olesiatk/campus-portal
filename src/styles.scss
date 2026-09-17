@@ -10,13 +10,25 @@ html {
   @include mat.theme(
     (
       color: (
-        primary: mat.$azure-palette,
-        tertiary: mat.$blue-palette,
+        primary: mat.$blue-palette,
+        tertiary: mat.$chartreuse-palette,
       ),
       typography: Roboto,
       density: 0,
     )
   );
+}
+
+:root {
+  --np-navy: #1a2456;
+  --np-navy-deep: #12193f;
+  --np-bg: #f2f4fa;
+  --np-surface: #ffffff;
+  --np-border: rgba(20, 28, 68, 0.08);
+  --np-lime: #cbe84e;
+  --np-radius-lg: 20px;
+  --np-radius-md: 14px;
+  --np-shadow: 0 8px 24px rgba(20, 28, 68, 0.06);
 }
 
 body {
@@ -28,12 +40,21 @@ body {
   // Set a default background, font and text colors for the application using
   // Angular Material's system-level CSS variables. Learn more about these
   // variables at https://material.angular.dev/guide/system-variables
-  background-color: var(--mat-sys-surface);
+  background-color: var(--np-bg);
   color: var(--mat-sys-on-surface);
   font: var(--mat-sys-body-medium);
 
   // Reset the user agent margin.
   margin: 0;
   height: 100%;
+}
+
+// Soften every Material card into the rounded, shadow-based look used
+// throughout the app instead of the default MDC outline/elevation.
+mat-card,
+.mat-mdc-card {
+  border-radius: var(--np-radius-lg) !important;
+  box-shadow: var(--np-shadow) !important;
+  border: none !important;
 }
 /* You can add global styles to this file, and also import other style files */
