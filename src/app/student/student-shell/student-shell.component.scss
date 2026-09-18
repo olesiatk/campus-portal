@@ -33,4 +33,15 @@
       color: var(--np-lime);
     }
   }
+
+  .mdc-list-item:not(.active-link):hover,
+  .mdc-list-item:not(.active-link):focus {
+    .mdc-list-item__primary-text {
+      color: var(--np-lime);
+    }
+
+    mat-icon {
+      color: var(--np-lime);
+    }
+  }
 }
