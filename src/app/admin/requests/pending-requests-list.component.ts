@@ -18,6 +18,7 @@ import { ApproveRequestDialogComponent } from './approve-request-dialog.componen
 export class PendingRequestsListComponent implements OnInit {
   requests: PendingRequest[] = [];
   departments: Department[] = [];
+  loading = true;
 
   constructor(
     private readonly registrationService: RegistrationRequestService,
@@ -32,12 +33,14 @@ export class PendingRequestsListComponent implements OnInit {
   }
 
   private load(): void {
+    this.loading = true;
     forkJoin({
       requests: this.registrationService.getPending(),
       departments: this.departmentService.getAll(),
     }).subscribe(({ requests, departments }) => {
       this.requests = requests;
       this.departments = departments;
+      this.loading = false;
       this.cdr.detectChanges();
     });
   }
