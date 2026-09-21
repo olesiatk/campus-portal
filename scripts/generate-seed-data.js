@@ -343,16 +343,41 @@ const SLOT_TIMES = [
   ['14:50', '16:10'],
 ];
 const scheduleEntries = [];
+// A subject's teacherId is fixed, and the same teacher often teaches subjects in more than
+// one group/stream - track which (teacher, day, slot) combos are already taken globally so
+// no teacher ends up double-booked across different groups. Rooms are tracked the same way,
+// on a best-effort basis (falls back to a clash if nothing is free after a few tries).
+const teacherBusy = new Set(); // `${teacherId}:${day}:${slot}`
+const roomBusy = new Set(); // `${room}:${day}:${slot}`
+function pickRoom(day, slot) {
+  for (let attempt = 0; attempt < 10; attempt++) {
+    const room = `Ауд. ${randInt(1, 4)}${randInt(10, 30)}`;
+    if (!roomBusy.has(`${room}:${day}:${slot}`)) {
+      return room;
+    }
+  }
+  return `Ауд. ${randInt(1, 4)}${randInt(10, 30)}`;
+}
+
 for (const group of groups) {
   const streamSubjects = subjectsByStream[group.streamId];
   // each subject appears twice a week -> build a cycling list, shuffled for variety
-  const doubled = shuffle([...streamSubjects, ...streamSubjects]);
+  const queue = shuffle([...streamSubjects, ...streamSubjects]);
   const totalSlotsAvailable = 5 * SLOT_TIMES.length; // 5 days
-  const lessonsToPlace = Math.min(doubled.length, totalSlotsAvailable);
+  const lessonsToPlace = Math.min(queue.length, totalSlotsAvailable);
   let placed = 0;
   for (let day = 1; day <= 5 && placed < lessonsToPlace; day++) {
     for (let slot = 1; slot <= SLOT_TIMES.length && placed < lessonsToPlace; slot++) {
-      const subject = doubled[placed];
+      // place the first still-queued subject whose teacher is free this slot;
+      // if every remaining subject's teacher is busy, leave the slot empty
+      const idx = queue.findIndex((s) => !teacherBusy.has(`${s.teacherId}:${day}:${slot}`));
+      if (idx === -1) {
+        continue;
+      }
+      const [subject] = queue.splice(idx, 1);
+      const room = pickRoom(day, slot);
+      teacherBusy.add(`${subject.teacherId}:${day}:${slot}`);
+      roomBusy.add(`${room}:${day}:${slot}`);
       scheduleEntries.push({
         id: nextScheduleId++,
         groupId: group.id,
@@ -362,7 +387,7 @@ for (const group of groups) {
         endTime: SLOT_TIMES[slot - 1][1],
         subjectId: subject.id,
         teacherId: subject.teacherId,
-        room: `Ауд. ${randInt(1, 4)}${randInt(10, 30)}`,
+        room,
       });
       placed++;
     }
