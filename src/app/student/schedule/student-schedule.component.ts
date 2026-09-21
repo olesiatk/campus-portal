@@ -5,14 +5,7 @@ import { AuthService } from '../../core/services/auth.service';
 import { ScheduleService } from '../../core/services/schedule.service';
 import { SubjectService } from '../../core/services/subject.service';
 import { TeacherService } from '../../core/services/teacher.service';
-import { ScheduleEntry, Subject as SubjectModel, User } from '../../core/models';
-
-interface ScheduleRow extends ScheduleEntry {
-  subjectName: string;
-  teacherName: string;
-}
-
-const DAY_NAMES = ['', 'Понеділок', 'Вівторок', 'Середа', 'Четвер', "П'ятниця", 'Субота'];
+import { WeekScheduleEvent } from '../../shared/components/week-schedule-grid/week-schedule-grid.component';
 
 @Component({
   selector: 'app-student-schedule',
@@ -21,7 +14,7 @@ const DAY_NAMES = ['', 'Понеділок', 'Вівторок', 'Середа',
   styleUrl: './student-schedule.component.scss',
 })
 export class StudentScheduleComponent implements OnInit {
-  byDay: { day: number; dayName: string; entries: ScheduleRow[] }[] = [];
+  events: WeekScheduleEvent[] = [];
 
   constructor(
     private readonly auth: AuthService,
@@ -41,24 +34,21 @@ export class StudentScheduleComponent implements OnInit {
       subjects: this.subjectService.getAll(),
       teachers: this.teacherService.getAll(),
     }).subscribe(({ entries, subjects, teachers }) => {
-      const rows = entries.map((e) => this.toRow(e, subjects, teachers));
-      this.byDay = [1, 2, 3, 4, 5, 6]
-        .map((day) => ({
-          day,
-          dayName: DAY_NAMES[day],
-          entries: rows.filter((r) => r.dayOfWeek === day).sort((a, b) => a.slot - b.slot),
-        }))
-        .filter((d) => d.entries.length > 0);
+      this.events = entries.map((e) => {
+        const subject = subjects.find((s) => s.id === e.subjectId);
+        const teacher = teachers.find((t) => t.id === e.teacherId);
+        const teacherName = teacher ? `${teacher.lastName} ${teacher.firstName}` : undefined;
+        return {
+          id: e.id,
+          dayOfWeek: e.dayOfWeek,
+          startTime: e.startTime,
+          endTime: e.endTime,
+          title: subject?.name ?? '—',
+          subtitle: [teacherName, e.room].filter(Boolean).join(' · '),
+          colorSeed: e.subjectId,
+        };
+      });
       this.cdr.detectChanges();
     });
-  }
-
-  private toRow(entry: ScheduleEntry, subjects: SubjectModel[], teachers: User[]): ScheduleRow {
-    const teacher = teachers.find((t) => t.id === entry.teacherId);
-    return {
-      ...entry,
-      subjectName: subjects.find((s) => s.id === entry.subjectId)?.name ?? '—',
-      teacherName: teacher ? `${teacher.lastName} ${teacher.firstName}` : '—',
-    };
   }
 }

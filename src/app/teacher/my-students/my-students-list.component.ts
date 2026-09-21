@@ -39,16 +39,17 @@ export class MyStudentsListComponent implements OnInit, AfterViewInit {
     if (!teacher) {
       return;
     }
-    forkJoin({
-      subjects: this.subjectService.getByTeacher(teacher.id),
-      students: this.studentService.getAll(),
-      groups: this.groupService.getAll(),
-    }).subscribe(({ subjects, students, groups }) => {
-      this.dataSource.data = students
-        .map((student) => this.toRow(student, subjects, groups))
-        .filter((row): row is StudentRow => row !== null)
-        .sort((a, b) => a.lastName.localeCompare(b.lastName));
-      this.cdr.detectChanges();
+    this.subjectService.getByTeacher(teacher.id).subscribe((subjects) => {
+      forkJoin({
+        students: this.studentService.getForSubjects(subjects),
+        groups: this.groupService.getAll(),
+      }).subscribe(({ students, groups }) => {
+        this.dataSource.data = students
+          .map((student) => this.toRow(student, subjects, groups))
+          .filter((row): row is StudentRow => row !== null)
+          .sort((a, b) => a.lastName.localeCompare(b.lastName));
+        this.cdr.detectChanges();
+      });
     });
   }
 

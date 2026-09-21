@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { User } from '../models';
+import { Subject as SubjectModel, User } from '../models';
 
 @Injectable({ providedIn: 'root' })
 export class StudentService {
@@ -13,6 +13,21 @@ export class StudentService {
 
   getAll(): Observable<User[]> {
     return this.http.get<User[]>(this.url).pipe(map((users) => users.filter((u) => u.role === 'student')));
+  }
+
+  /** Students enrolled in at least one of the given subjects (by stream or elective). */
+  getForSubjects(subjects: SubjectModel[]): Observable<User[]> {
+    const streamIds = new Set(subjects.map((s) => s.streamId));
+    const subjectIds = new Set(subjects.map((s) => s.id));
+    return this.getAll().pipe(
+      map((students) =>
+        students.filter(
+          (s) =>
+            (s.streamId !== undefined && streamIds.has(s.streamId)) ||
+            (s.electiveSubjectIds ?? []).some((id) => subjectIds.has(id))
+        )
+      )
+    );
   }
 
   getByDepartment(departmentId: number): Observable<User[]> {

@@ -1,31 +1,3 @@
 <app-page-header title="Розклад" subtitle="Ваші заняття на тиждень"></app-page-header>
 
-@if (!byDay.length) {
-  <p>Розклад відсутній.</p>
-}
-
-@for (day of byDay; track day) {
-  <mat-card class="day-card">
-    <h3>{{ day.dayName }}</h3>
-    <table mat-table [dataSource]="day.entries" class="full-width">
-      <ng-container matColumnDef="slot">
-        <th mat-header-cell *matHeaderCellDef>Пара</th>
-        <td mat-cell *matCellDef="let e">{{ e.slot }} ({{ e.startTime }}–{{ e.endTime }})</td>
-      </ng-container>
-      <ng-container matColumnDef="subject">
-        <th mat-header-cell *matHeaderCellDef>Предмет</th>
-        <td mat-cell *matCellDef="let e">{{ e.subjectName }}</td>
-      </ng-container>
-      <ng-container matColumnDef="teacher">
-        <th mat-header-cell *matHeaderCellDef>Викладач</th>
-        <td mat-cell *matCellDef="let e">{{ e.teacherName }}</td>
-      </ng-container>
-      <ng-container matColumnDef="room">
-        <th mat-header-cell *matHeaderCellDef>Аудиторія</th>
-        <td mat-cell *matCellDef="let e">{{ e.room }}</td>
-      </ng-container>
-      <tr mat-header-row *matHeaderRowDef="['slot', 'subject', 'teacher', 'room']"></tr>
-      <tr mat-row *matRowDef="let row; columns: ['slot', 'subject', 'teacher', 'room']"></tr>
-    </table>
-  </mat-card>
-}
+<app-week-schedule-grid [events]="events"></app-week-schedule-grid>

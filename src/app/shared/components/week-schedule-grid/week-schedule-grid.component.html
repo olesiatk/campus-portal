@@ -1,0 +1,44 @@
+<div class="week-grid" [style.grid-template-rows]="'auto ' + bodyHeight + 'px'">
+  <div class="week-grid__corner"></div>
+
+  @for (day of days; track day.value) {
+    <div class="week-grid__day-header" [class.week-grid__day-header--today]="day.value === todayDayOfWeek">
+      {{ day.label }}
+    </div>
+  }
+
+  <div class="week-grid__time-axis">
+    @for (hour of hours; track hour) {
+      <span class="week-grid__hour-label" [style.top.px]="hourTop(hour)">{{ hour }}:00</span>
+    }
+  </div>
+
+  @for (day of days; track day.value) {
+    <div class="week-grid__day-col" [class.week-grid__day-col--today]="day.value === todayDayOfWeek">
+      @for (hour of hours; track hour) {
+        <div class="week-grid__hour-line" [style.top.px]="hourTop(hour)"></div>
+      }
+      @for (event of eventsByDay[day.value]; track event.id) {
+        <div
+          class="week-grid__event"
+          [style.top.px]="event.top"
+          [style.height.px]="event.height"
+          [style.left]="'calc(' + event.left + '% + 3px)'"
+          [style.width]="'calc(' + event.width + '% - 6px)'"
+          [style.background]="color(event.colorSeed).bg"
+          [style.color]="color(event.colorSeed).fg"
+        >
+          <div class="week-grid__event-title">{{ event.title }}</div>
+          <div class="week-grid__event-time">{{ event.startTime }}–{{ event.endTime }}</div>
+          @if (event.subtitle) {
+            <div class="week-grid__event-subtitle">{{ event.subtitle }}</div>
+          }
+        </div>
+      }
+    </div>
+  }
+</div>
+
+@if (!hasEvents) {
+  <p class="week-grid__empty">Розклад відсутній.</p>
+}

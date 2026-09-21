@@ -1,13 +1,12 @@
 [
-  {
+    {
     "id": 1,
-    "role": "teacher",
-    "firstName": "Катерина",
-    "lastName": "Панченко",
-    "email": "kateryna.panchenko@pim.edu.ua",
-    "password": "Passw0rd1",
-    "phone": "+380 050 926 67-80",
-    "departmentId": 1
+    "role": "admin",
+    "firstName": "Адмін",
+    "lastName": "Системи",
+    "email": "pm-admin@test.com",
+    "password": "12345admin",
+    "phone": "+380 44 000 00 00"
   },
   {
     "id": 2,
@@ -8011,11 +8010,12 @@
   },
   {
     "id": 494,
-    "role": "admin",
-    "firstName": "Адмін",
-    "lastName": "Системи",
-    "email": "pm-admin@test.com",
-    "password": "12345admin",
-    "phone": "+380 44 000 00 00"
+    "role": "teacher",
+    "firstName": "Катерина",
+    "lastName": "Панченко",
+    "email": "kateryna.panchenko@pim.edu.ua",
+    "password": "Passw0rd1",
+    "phone": "+380 050 926 67-80",
+    "departmentId": 1
   }
 ]

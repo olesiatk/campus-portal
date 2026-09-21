@@ -11,7 +11,7 @@
     "name": "Функціональний аналіз",
     "departmentId": 1,
     "streamId": 1,
-    "teacherId": 1
+    "teacherId": 494
   },
   {
     "id": 3,
@@ -46,7 +46,7 @@
     "name": "Математична логіка",
     "departmentId": 1,
     "streamId": 1,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 8,
@@ -81,7 +81,7 @@
     "name": "Варіаційне обчислення",
     "departmentId": 1,
     "streamId": 2,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 13,
@@ -116,7 +116,7 @@
     "name": "Філософія",
     "departmentId": 1,
     "streamId": 2,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 18,
@@ -151,7 +151,7 @@
     "name": "Основи економіки",
     "departmentId": 1,
     "streamId": 3,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 23,
@@ -186,7 +186,7 @@
     "name": "Теорія ймовірностей та математична статистика",
     "departmentId": 1,
     "streamId": 4,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 28,
@@ -221,7 +221,7 @@
     "name": "Теорія графів",
     "departmentId": 1,
     "streamId": 4,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 33,
@@ -256,7 +256,7 @@
     "name": "Математична фізика",
     "departmentId": 1,
     "streamId": 5,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 38,
@@ -291,7 +291,7 @@
     "name": "Теорія ймовірностей та математична статистика",
     "departmentId": 1,
     "streamId": 5,
-    "teacherId": 1
+   "teacherId": 494
   },
   {
     "id": 43,
@@ -312,21 +312,21 @@
     "name": "Розробка мобільних застосунків",
     "departmentId": 2,
     "streamId": 6,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 46,
     "name": "Об'єктно-орієнтоване програмування",
     "departmentId": 2,
     "streamId": 6,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 47,
     "name": "Алгоритми та структури даних",
     "departmentId": 2,
     "streamId": 6,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 48,
@@ -347,21 +347,21 @@
     "name": "Бази даних",
     "departmentId": 2,
     "streamId": 6,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 51,
     "name": "Основи економіки",
     "departmentId": 2,
     "streamId": 6,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 52,
     "name": "Історія України",
     "departmentId": 2,
     "streamId": 6,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 53,
@@ -382,21 +382,21 @@
     "name": "Об'єктно-орієнтоване програмування",
     "departmentId": 2,
     "streamId": 7,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 56,
     "name": "Операційні системи",
     "departmentId": 2,
     "streamId": 7,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 57,
     "name": "Веб-технології",
     "departmentId": 2,
     "streamId": 7,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 58,
@@ -417,21 +417,21 @@
     "name": "Філософія",
     "departmentId": 2,
     "streamId": 7,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 61,
     "name": "Основи економіки",
     "departmentId": 2,
     "streamId": 7,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 62,
     "name": "Розробка мобільних застосунків",
     "departmentId": 2,
     "streamId": 8,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 63,
@@ -452,21 +452,21 @@
     "name": "Вища математика",
     "departmentId": 2,
     "streamId": 8,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 66,
     "name": "Дискретна математика",
     "departmentId": 2,
     "streamId": 8,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 67,
     "name": "Основи економіки",
     "departmentId": 2,
     "streamId": 8,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 68,
@@ -487,21 +487,21 @@
     "name": "Дискретна математика",
     "departmentId": 2,
     "streamId": 9,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 71,
     "name": "Основи економіки",
     "departmentId": 2,
     "streamId": 9,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 72,
     "name": "Комп'ютерні мережі",
     "departmentId": 2,
     "streamId": 9,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 73,
@@ -522,21 +522,21 @@
     "name": "Захист інформації",
     "departmentId": 2,
     "streamId": 9,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 76,
     "name": "Алгоритми та структури даних",
     "departmentId": 2,
     "streamId": 9,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 77,
     "name": "Хмарні технології",
     "departmentId": 2,
     "streamId": 9,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 78,
@@ -557,21 +557,21 @@
     "name": "Розробка мобільних застосунків",
     "departmentId": 2,
     "streamId": 10,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 81,
     "name": "Іноземна мова",
     "departmentId": 2,
     "streamId": 10,
-    "teacherId": 12
+   "teacherId": 4942
   },
   {
     "id": 82,
     "name": "Архітектура комп'ютерів",
     "departmentId": 2,
     "streamId": 10,
-    "teacherId": 10
+   "teacherId": 4940
   },
   {
     "id": 83,
@@ -592,314 +592,314 @@
     "name": "Дискретна математика",
     "departmentId": 2,
     "streamId": 10,
-    "teacherId": 11
+   "teacherId": 4941
   },
   {
     "id": 86,
     "name": "Системний аналіз",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 87,
     "name": "Імітаційне моделювання",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 88,
     "name": "Історія України",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 89,
     "name": "Моделювання систем",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 90,
     "name": "Філософія",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 91,
     "name": "Дослідження операцій",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 92,
     "name": "Теорія управління",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 93,
     "name": "Експертні системи",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 94,
     "name": "Лінійна алгебра",
     "departmentId": 3,
     "streamId": 11,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 95,
     "name": "Філософія",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 96,
     "name": "Системний аналіз",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 97,
     "name": "Вища математика",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 98,
     "name": "Імітаційне моделювання",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 99,
     "name": "Основи економіки",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 100,
     "name": "Теорія прийняття рішень",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 101,
     "name": "Дослідження операцій",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 102,
     "name": "Лінійна алгебра",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 103,
     "name": "Фізичне виховання",
     "departmentId": 3,
     "streamId": 12,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 104,
     "name": "Моделювання систем",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 105,
     "name": "Системний аналіз",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 106,
     "name": "Аналіз даних",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 107,
     "name": "Штучний інтелект",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 108,
     "name": "Експертні системи",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 109,
     "name": "Філософія",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 110,
     "name": "Імітаційне моделювання",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 111,
     "name": "Оптимізаційні методи",
     "departmentId": 3,
     "streamId": 13,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 112,
     "name": "Системний аналіз",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 113,
     "name": "Теорія управління",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 114,
     "name": "Оптимізаційні методи",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 115,
     "name": "Теорія прийняття рішень",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 116,
     "name": "Лінійна алгебра",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 117,
     "name": "Основи економіки",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 118,
     "name": "Аналіз даних",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 119,
     "name": "Експертні системи",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 120,
     "name": "Фізичне виховання",
     "departmentId": 3,
     "streamId": 14,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 121,
     "name": "Філософія",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 122,
     "name": "Лінійна алгебра",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 123,
     "name": "Штучний інтелект",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 124,
     "name": "Теорія управління",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 17
+   "teacherId": 4947
   },
   {
     "id": 125,
     "name": "Фізичне виховання",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 15
+   "teacherId": 4945
   },
   {
     "id": 126,
     "name": "Теорія прийняття рішень",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 19
+   "teacherId": 4949
   },
   {
     "id": 127,
     "name": "Вища математика",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 18
+   "teacherId": 4948
   },
   {
     "id": 128,
     "name": "Системний аналіз",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 16
+   "teacherId": 4946
   },
   {
     "id": 129,
     "name": "Основи економіки",
     "departmentId": 3,
     "streamId": 15,
-    "teacherId": 17
+   "teacherId": 4947
   }
 ]

@@ -1,7 +1,6 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { forkJoin } from 'rxjs';
 
 import { AuthService } from '../../core/services/auth.service';
 import { SubjectService } from '../../core/services/subject.service';
@@ -50,13 +49,12 @@ export class TeacherGradesComponent implements OnInit {
     }
     this.teacherId = teacher.id;
 
-    forkJoin({
-      subjects: this.subjectService.getByTeacher(teacher.id),
-      students: this.studentService.getAll(),
-    }).subscribe(({ subjects, students }) => {
+    this.subjectService.getByTeacher(teacher.id).subscribe((subjects) => {
       this.subjects = subjects;
-      this.students = students;
-      this.cdr.detectChanges();
+      this.studentService.getForSubjects(subjects).subscribe((students) => {
+        this.students = students;
+        this.cdr.detectChanges();
+      });
     });
 
     this.form.get('subjectId')!.valueChanges.subscribe((subjectId) => this.onSubjectChange(subjectId));
@@ -86,8 +84,8 @@ export class TeacherGradesComponent implements OnInit {
       this.grades = [];
       return;
     }
-    this.gradeService.getByStudent(studentId).subscribe((grades) => {
-      this.grades = grades.filter((g) => g.subjectId === subjectId);
+    this.gradeService.getByTeacher(this.teacherId).subscribe((grades) => {
+      this.grades = grades.filter((g) => g.subjectId === subjectId && g.studentId === studentId);
       this.cdr.detectChanges();
     });
   }
@@ -96,6 +94,12 @@ export class TeacherGradesComponent implements OnInit {
     const { subjectId, studentId, date, value, comment } = this.form.value;
     if (!subjectId || !studentId || value === null || value === undefined) {
       this.form.markAllAsTouched();
+      return;
+    }
+    const isOwnSubject = this.subjects.some((s) => s.id === subjectId);
+    const isOwnStudent = this.filteredStudents.some((s) => s.id === studentId);
+    if (!isOwnSubject || !isOwnStudent) {
+      this.snackBar.open('Немає доступу до цього предмета або студента', 'ОК', { duration: 3000 });
       return;
     }
     this.gradeService
